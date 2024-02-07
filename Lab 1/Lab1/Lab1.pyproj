@@ -1,0 +1,83 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d6b63b44-2e9d-48cf-9121-dc93c905aeec</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Lab1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Lab1</Name>
+    <RootNamespace>Lab1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Lab1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_100ms_Experiment2.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_1024ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_2048ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_256ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_2ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_4096ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_64ms_Experiment4_fluke.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_64ms_Experiment4_not fluke.lvm" />
+    <Content Include="data\25Jan2024_RunT_10s_WaitT_8192ms_Experiment4.lvm" />
+    <Content Include="data\25Jan2024_RunT_1s_WaitT_1000ms_Experiment1.lvm" />
+    <Content Include="data\25Jan2024_RunT_1s_WaitT_100ms_Experiment1.lvm" />
+    <Content Include="data\25Jan2024_RunT_1s_WaitT_10ms_Experiment1.lvm" />
+    <Content Include="data\25Jan2024_RunT_1s_WaitT_1ms_Experiment1.lvm" />
+    <Content Include="data\25Jan2024_RunT_20s_WaitT_500ms_RunRandom.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_100ms_Experiment2.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_16ms_Experiment3.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_256ms_Experiment3.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_2ms_Experiment3.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_4ms_Experiment3.lvm" />
+    <Content Include="data\25Jan2024_RunT_2s_WaitT_64ms_Experiment3.lvm" />
+    <Content Include="data\25Jan2024_RunT_3s_WaitT_100ms_Experiment2.lvm" />
+    <Content Include="data\26Jan2024_RunT_240000s_WaitT_1000ms_Experiment1.lvm" />
+    <Content Include="data\26Jan2024_RunT_300s_WaitT_64ms_Experiment1.lvm" />
+    <Content Include="data\26Jan2024_RunT_600s_WaitT_32ms_Experiment1.lvm" />
+    <Content Include="data\30Jan2024_1.530mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_1.530mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_1.530mm_RunTime_300s_WaitTime_80s.lvm" />
+    <Content Include="data\30Jan2024_14.500mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_14.500mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_20.300mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_20.300mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_29.000mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_29.000mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_3.060mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_3.060mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_5.860mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_5.860mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_8.670mm_RunTime_300s_WaitTime_40ms.lvm" />
+    <Content Include="data\30Jan2024_8.670mm_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_No Cobalt_RunTime_300s_WaitTime_80s.lvm" />
+    <Content Include="data\30Jan2024_No Lead after testing all the lead_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\30Jan2024_No Lead_RunTime_300s_WaitTime_80ms.lvm" />
+    <Content Include="data\SampleData_Spring2024.dat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
