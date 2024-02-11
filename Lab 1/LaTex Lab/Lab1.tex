@@ -3,6 +3,7 @@
 \usepackage{graphicx} % For including graphics
 \usepackage{amsmath} % For math formatting
 \usepackage{geometry} % For page layout
+\usepackage{listings} % For including code snippets
 \geometry{a4paper, margin=1in}
 
 \title{Effect of Lead Thickness on Radiation Detection}
@@ -89,7 +90,18 @@
         The data is then processed using a Python program, which allows us to measure the radiation intensity at each thickness. 
         This data is then used to generate graphs of the radiation intensity as a function of lead thickness. 
         These graphs are then analyzed to determine the relationship between lead thickness and radiation attenuation.
+        \lstset{language=Python}
+        \lstset{frame=lines}
+        \lstset{caption={Insert code directly in your document}}
+        \lstset{label={lst:code_direct}}
+        \lstset{basicstyle=\footnotesize}
+        \begin{lstlisting}
+        from brg.datastructures import Mesh
         
+        mesh = Mesh.from_obj('faces.obj')
+        mesh.draw()
+        \end{lstlisting}
+                
 
 \section{Results}
     Present the data obtained from the experiment. Include your Python-generated graphs here. Use the following syntax to include images:
