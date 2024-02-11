@@ -1,8 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1707618445.67513 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707618446.14636 2
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707618443.78621 1634 a7d1bce58cce3131d90580f0ed44c432 ""
+["pdflatex"] 1707688721.34151 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707688721.90675 2
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707688720.09038 7326 5ea0edc7c3963df2ee3395970acdae06 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1707688346.02282 14064 335bb026f6f6daa340f385df07b8179d ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
+  "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1707610286.8924 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1707610282.58417 1004 54797486969f23fa377b128694d548df ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1707610285.23996 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm" 1707610285.24006 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -40,8 +42,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty" 1707610287.69655 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty" 1707610287.69899 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1707610289.2486 30006 57b07afb710ee2f649c65cfbafda39c1 ""
-  "Lab1.aux" 1707618446.0582 787 e3caa1a83e2997f77d352ea02d9b35af "pdflatex"
-  "Lab1.tex" 1707618443.78621 1634 a7d1bce58cce3131d90580f0ed44c432 ""
+  "Lab1.aux" 1707688721.80778 1431 db8f479a4ef77ab85d13be8d1d261c43 "pdflatex"
+  "Lab1.tex" 1707688720.09038 7326 5ea0edc7c3963df2ee3395970acdae06 ""
   "path/to/your/graph.png" 0 -1 0 ""
   (generated)
   "Lab1.aux"

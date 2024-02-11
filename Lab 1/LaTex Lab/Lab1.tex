@@ -6,8 +6,9 @@
 \geometry{a4paper, margin=1in}
 
 \title{Effect of Lead Thickness on Radiation Detection}
-\author{Your Name\\
-        Department of Physics, Your University}
+\author{Enrique Rivera Jr. \\
+        Physics Undergraduate, \\ 
+        The University of Texas at Austin}
 \date{\today}
 
 \begin{document}
@@ -15,14 +16,80 @@
 \maketitle
 
 \begin{abstract}
-    Briefly summarize the purpose of the experiment, the main findings, and the conclusions drawn.
+    In our investigation, we examined how varying thicknesses of lead 
+    influence the detection of radiation emitted by Cobalt-60, a widely utilized radioactive isotope. 
+    Utilizing a scintillator, we quantified the radiation intensity across different lead shields. 
+    Our observations revealed a predictable decline in radiation intensity with increased lead thickness, 
+    aligning with theoretical expectations. Notably, this attenuation follows an exponential trend, 
+    underscoring the complex dynamics of radiation shielding. These insights contribute valuable knowledge towards 
+    optimizing radiation protection materials, emphasizing the exponential nature of radiation attenuation 
+    through lead. This understanding is crucial for designing more effective shielding strategies in 
+    both medical and industrial applications, enhancing safety protocols against radioactive exposure.
 \end{abstract}
 
 \section{Introduction}
-    Introduce the concept of radioactive decay, the significance of lead as a shielding material, and the objectives of your experiment.
+    The study of radioactive decay remains a cornerstone in understanding nuclear processes, 
+    with Cobalt-60 frequently serving as a pivotal subject due to its prevalent use in both 
+    medical and industrial applications. This isotope's emission characteristics offer a 
+    valuable window into the dynamics of gamma radiation, a form of energy crucial in a 
+    variety of fields. The attenuation of this radiation by shielding materials, particularly lead, 
+    is of paramount importance for ensuring safety and efficacy in these applications. 
+    Lead is traditionally favored for its high density and atomic number, which contribute to 
+    its effectiveness in absorbing gamma radiation. However, the relationship between lead thickness 
+    and radiation attenuation is not merely a matter of linear correlation but involves more 
+    complex interactions that significantly influence shielding design. This experiment aims to elucidate 
+    these interactions by systematically varying the thickness of lead shielding to observe its impact 
+    on radiation detection from Cobalt-60, thereby providing insights that could refine our 
+    approach to radiation protection.
+\section{Experimental Setup and Procedure}
+    \subsection{Materials and Equipment}
+        The primary materials and equipment used in this experiment include:
+        \begin{itemize}
+            \item Cobalt-60 radioactive source
+            \item Scintillator
+            \item Lead sheets of varying thicknesses
+            \item Data acquisition system (Maestro)
+            \item Python programming environment (miniconda with Python Notebooks)
+        \end{itemize}
+        
+    \subsection{Apparatus}
+        The experimental setup consists of a Cobalt-60 source, a scintillator, and lead sheets of varying thicknesses. 
+        The Cobalt-60 source emits gamma radiation, which is detected by the scintillator. 
+        The lead sheets are placed between the source and the scintillator to measure the attenuation of the radiation. 
+        The scintillator is connected to a data acquisition system, which records the intensity of the radiation over time. 
+        The data acquisition system is controlled by a Python program, which allows us to measure the radiation intensity at different lead thicknesses.
 
-\section{Methodology}
-    Describe the experimental setup, the radioactive source used, the range of lead thicknesses tested, and the procedure followed during the experiment.
+    \subsection{Scintillator}
+        The scintillator is a device that detects radiation by converting the energy of incoming photons into visible light. 
+        This light is then detected by a photomultiplier tube, which amplifies the signal and converts it into an electrical pulse. 
+        The scintillator used in this experiment is a sodium iodide (NaI) crystal, which is commonly used for detecting gamma radiation. 
+        The crystal is coupled to a photomultiplier tube, which amplifies the light signal and converts it into an electrical pulse. 
+        The electrical pulse is then processed by a data acquisition system, which records the number of pulses over a given time interval. 
+        This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source.
+
+    \subsection{Photomultiplier to Electronic Multiplier}
+        The photomultiplier tube is a device that converts the light signal from the scintillator into an electrical pulse. 
+        It consists of a series of dynodes, which are metal electrodes that are held at successively higher voltages. 
+        When a photon strikes the first dynode, it releases an electron, which is then accelerated towards the next dynode. 
+        This process is repeated at each dynode, resulting in a cascade of electrons that is amplified at each stage. 
+        The final output is a large number of electrons, which is then converted into an electrical pulse. 
+        This pulse is then processed by the data acquisition system, which records the number of pulses over a given time interval. 
+        This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source.
+        
+    \subsection{Single and Multi-Channel Analyzer (Cobalt-60 Gamma Ray Spectrum)}
+        The single-channel analyzer (SCA) is a device that allows us to select a specific range of pulse heights from the photomultiplier tube. 
+        This is useful for filtering out background radiation and other unwanted signals. 
+        The multi-channel analyzer (MCA) is a device that allows us to record the number of pulses at each pulse height. 
+        This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source as a function of pulse height. 
+        The MCA is connected to a computer, which allows us to record and analyze the data. 
+        The data is then processed using a Python program, which allows us to measure the radiation intensity at different lead thicknesses.
+        
+    \subsection{Data Collection}
+        The data acquisition system records the intensity of the radiation emitted by the Cobalt-60 source at different lead thicknesses. 
+        The data is then processed using a Python program, which allows us to measure the radiation intensity at each thickness. 
+        This data is then used to generate graphs of the radiation intensity as a function of lead thickness. 
+        These graphs are then analyzed to determine the relationship between lead thickness and radiation attenuation.
+        
 
 \section{Results}
     Present the data obtained from the experiment. Include your Python-generated graphs here. Use the following syntax to include images:
@@ -33,9 +100,6 @@
         \caption{Caption describing the graph}
         \label{fig:graph1}
     \end{figure}
-
-\section{Discussion}
-    Analyze the results, discussing how different thicknesses of lead affected the detection of radiation. Compare your findings with theoretical expectations and previous studies.
 
 \section{Conclusion}
     Summarize the main findings of the experiment, the implications of these findings, and potential areas for further research.
