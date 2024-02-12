@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.2.10)  11 FEB 2024 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.2.10)  12 FEB 2024 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,26 +239,32 @@ File: ./img/other/Lab1 Apparatus.png Graphic file (type png)
 <use ./img/other/Lab1 Apparatus.png>
 Package pdftex.def Info: ./img/other/Lab1 Apparatus.png  used on input line 68.
 (pdftex.def)             Requested size: 226.48395pt x 221.12158pt.
- [2 <./img/other/Lab1 Apparatus.png>] (/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+ [2 <./img/other/Lab1 Apparatus.png>]
+<./img/other/module.png, id=17, 848.16875pt x 358.33875pt>
+File: ./img/other/module.png Graphic file (type png)
+<use ./img/other/module.png>
+Package pdftex.def Info: ./img/other/module.png  used on input line 91.
+(pdftex.def)             Requested size: 407.66833pt x 172.23576pt.
+ (/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) [3] [4] (Lab1.aux)
+) [3 <./img/other/module.png>] [4] (Lab1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4357 strings out of 476476
- 64863 string characters out of 5794063
- 1934975 words of memory out of 5000000
- 26342 multiletter control sequences out of 15000+600000
+ 4365 strings out of 476476
+ 65097 string characters out of 5794063
+ 1929975 words of memory out of 5000000
+ 26350 multiletter control sequences out of 15000+600000
  562196 words of font info for 50 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,6n,65p,491b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Lab1.pdf (4 pages, 195437 bytes).
+Output written on Lab1.pdf (4 pages, 467640 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

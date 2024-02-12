@@ -48,25 +48,25 @@
             The primary materials and equipment used in this experiment include:
             \begin{itemize}
                 \item Cobalt-60 radioactive source
-                \item Lead sheets of varying thicknesses in mm(1.530, 3.060, 5.860, 8.670, 14.500, 20.300, 29.000) 
+                \item Lead sheets of varying thicknesses in mm (1.530, 3.060, 5.860, 8.670, 14.500, 20.300, 29.000) 
                 \item Scintillator
                 \item Lead sheets of varying thicknesses
                 \item Multi-channel analyzer (MCA) and single-channel analyzer (SCA)
-                \item Data acquisition Software(Maestro)
+                \item Data acquisition Software (Maestro)
                 \item Python programming environment (miniconda with Python notebooks)
             \end{itemize}
             
         \subsection{Apparatus}
-            The experimental setup consists of a Cobalt-60 source, a scintillator, and lead sheets of varying thicknesses. 
+            The experimental setup consists of a Cobalt-60 source, a Radiation Detection Module, and lead sheets of varying thicknesses. 
             The Cobalt-60 source emits gamma radiation, which is detected by the scintillator. 
             The lead sheets are placed between the source and the scintillator to measure the attenuation of the radiation. 
-            The scintillator is connected to a data acquisition system, which records the intensity of the radiation over time. 
-            The data acquisition system is controlled by a Python program, which allows us to measure the radiation intensity at different lead thicknesses.
+            The Radiation Detection Module is connected to a data acquisition system(Maestro), which records the intensity of the radiation over time in a histogram plot. 
+            Which the data is then passed to a Python program, which allows us to measure the radiation intensity at different lead thicknesses with our plot analysis.
             
             \begin{figure}[!htb]
                 \centering
                 \includegraphics[width=0.5\textwidth]{./img/other/Lab1 Apparatus.png}
-                \caption{Caption describing the graph}
+                \caption{Apparatus Flow Chart}
                 \label{fig:graph1}
             \end{figure}
 
@@ -75,8 +75,6 @@
             This light is then detected by a photomultiplier tube, which amplifies the signal and converts it into an electrical pulse. 
             The scintillator used in this experiment is a sodium iodide (NaI) crystal, which is commonly used for detecting gamma radiation. 
             The crystal is coupled to a photomultiplier tube, which amplifies the light signal and converts it into an electrical pulse. 
-            The electrical pulse is then processed by a data acquisition system, which records the number of pulses over a given time interval. 
-            This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source.
 
         \subsection{Photomultiplier to Electronic Multiplier}
             The photomultiplier tube is a device that converts the light signal from the scintillator into an electrical pulse. 
@@ -84,16 +82,25 @@
             When a photon strikes the first dynode, it releases an electron, which is then accelerated towards the next dynode. 
             This process is repeated at each dynode, resulting in a cascade of electrons that is amplified at each stage. 
             The final output is a large number of electrons, which is then converted into an electrical pulse. 
-            This pulse is then processed by the data acquisition system, which records the number of pulses over a given time interval. 
+            This pulse is then passed to a electrical pre-amplifier to be then processed by the data acquisition system, 
+            which records the number of pulses over a given time interval. 
             This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source.
+
+            \begin{figure}[!htb]
+                \centering
+                \includegraphics[width=0.9\textwidth]{./img/other/module.png}
+                \caption{Radiation Detection Module}
+                \label{fig:Radiation Detection Module}
+            \end{figure}
             
         \subsection{Single and Multi-Channel Analyzer (Cobalt-60 Gamma Ray Spectrum)}
-            The single-channel analyzer (SCA) is a device that allows us to select a specific range of pulse heights from the photomultiplier tube. 
+            The single-channel analyzer (SCA) is a device that allows us to select a specific range of energy from the photomultiplier tube. 
             This is useful for filtering out background radiation and other unwanted signals. 
-            The multi-channel analyzer (MCA) is a device that allows us to record the number of pulses at each pulse height. 
-            This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source as a function of pulse height. 
-            The MCA is connected to a computer, which allows us to record and analyze the data. 
-            The data is then processed using a Python program, which allows us to measure the radiation intensity at different lead thicknesses.
+            The multi-channel analyzer (MCA) is a device that allows us to record the number of pulses at each energy bin. 
+            This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source as a histogram 
+            where number of occurrences for a specific energy bin is measure as a count. 
+            The MCA and the SCA is connected to a computer, which allows us to record and visualize the data. 
+            The data is then processed using a Python program, which allows us to compare the radiation intensity at different lead thicknesses.
             
         \subsection{Data Collection}
             The data acquisition system records the intensity of the radiation emitted by the Cobalt-60 source at different lead thicknesses. 
