@@ -112,7 +112,7 @@
             
             \lstset{language=Python}
             \lstset{frame=lines}
-            \lstset{caption={LVM to CSV Code Snippet}}
+            \lstset{caption={Code Snippet - LVM to CSV Conversion}}
             \lstset{label={lst:code_direct}}
             \lstset{basicstyle=\footnotesize}
             \begin{lstlisting}
@@ -144,7 +144,46 @@
 
 \section{Results}
     Present the data obtained from the experiment. Include your Python-generated graphs here. Use the following syntax to include images:
+    thickness
+
+    \begin{figure}[!htb]
+        \centering
+        \includegraphics[width=0.75\textwidth]{./img/plots/thickness.png}
+        \caption{Radiation Detection Histogram}
+        \label{fig:Radiation Detection Histogram}
+    \end{figure}
+
+
+
+    \lstset{language=Python}
+    \lstset{frame=lines}
+    \lstset{caption={Python Code Snippet - Histograms}}  
+    \lstset{label={lst:code_direct}}
+    \lstset{basicstyle=\footnotesize}
+    \begin{lstlisting}
+        def lvm_to_csv(lvm_filename, csv_filename):
+        # Remove the head data from the LVM file first
+        # Open the LVM file for reading
+        with open(lvm_filename, 'r') as lvm_file:
+            # Read the entire file into memory
+            lines = lvm_file.readlines()
     
+        data_lines = lines
+    
+        # Open the CSV file for writing
+        with open(csv_filename, 'w', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            
+            colums = "Time	Col1	Col2	Scale"
+            writer.writerow( colums.strip().split() )
+            
+            
+            # Write data to CSV file
+            for line in data_lines:
+                # Split the line into values based on whitespace
+                values = line.strip().split()
+                writer.writerow(values)
+    \end{lstlisting}
 
 \section{Conclusion}
     Summarize the main findings of the experiment, the implications of these findings, and potential areas for further research.
