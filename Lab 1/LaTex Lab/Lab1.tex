@@ -143,10 +143,8 @@
                 
 
 \section{Results}
-    The experimental data collected from the Cobalt-60 source, under varying thicknesses of lead shielding, 
-    was analyzed to understand the effect of lead on radiation attenuation. The histograms in 
-    Figure \ref{fig:Radiation Detection Histogram} illustrate the distribution of detected radiation events for different lead 
-    thicknesses, alongside a control setup with no lead shielding.
+
+
 
     \begin{figure}[!htb]
         \centering
@@ -155,7 +153,12 @@
         \label{fig:Radiation Detection Histogram}
     \end{figure}
 
-    Each histogram was normalized to reflect the probability density, enabling a direct 
+    The experimental data collected from the Cobalt-60 source, under varying thicknesses of lead shielding, 
+    was analyzed to understand the effect of lead on radiation attenuation. The histograms in 
+    Figure \ref{fig:Radiation Detection Histogram} illustrate the distribution of detected radiation events for different lead 
+    thicknesses, alongside a control setup with no lead shielding.
+    
+        Each histogram was normalized to reflect the probability density, enabling a direct 
     comparison between runs with different total counts. The histograms show a clear 
     exponential decrease in event frequency with increasing lead thickness, supporting 
     the hypothesis that lead effectively attenuates gamma radiation.
@@ -173,38 +176,97 @@
     The code snippet used for generating the histograms and fitting the data is as follows:
 
 
+
     \lstset{language=Python}
     \lstset{frame=lines}
     \lstset{caption={Python Code Snippet - Histograms}}  
     \lstset{label={lst:code_direct}}
     \lstset{basicstyle=\footnotesize}
     \begin{lstlisting}
-        def lvm_to_csv(lvm_filename, csv_filename):
-        # Remove the head data from the LVM file first
-        # Open the LVM file for reading
-        with open(lvm_filename, 'r') as lvm_file:
-            # Read the entire file into memory
-            lines = lvm_file.readlines()
+        def histrograms():
+            """
+            Shows lead data
+            """
+            datas = [
+                pd.read_csv("./data_csv/No Cobalt.csv"),
+                pd.read_csv("./data_csv/1.530mm.csv"),
+                pd.read_csv("./data_csv/3.060mm.csv"),
+                pd.read_csv("./data_csv/5.860mm.csv"),
+                pd.read_csv("./data_csv/8.670mm.csv"),
+                pd.read_csv("./data_csv/14.500mm.csv"),
+                pd.read_csv("./data_csv/20.300mm.csv"),
+                pd.read_csv("./data_csv/29.000mm.csv")
+            ]
+        
+            legend_Label = [
+                "No Cobalt",
+                "1.530mm",
+                "3.060mm",
+                "5.860mm",
+                "8.670mm",
+                "14.500mm",
+                "20.300mm",
+                "29.000mm"
+            ]
+        
+            # Set the figure size larger with the 'figsize' argument
+            # This sets the figure size to 15x10 inches
+            fig, axs = plt.subplots(2, figsize=(15, 10))
+            for i in range(len(datas)):
+                # Histogram
+                axs[0].hist(
+                    datas[i]['Col1'],
+                    bins=np.arange( 
+                        min(datas[i]['Col1']), 
+                        max(datas[i]['Col1']) + 1, 
+                        1
+                    ), 
+                    align='right',density=True, 
+                    label=legend_Label[i])
+                
+                axs[1].hist(
+                    datas[i]['Col2'],
+                    bins=np.arange(
+                        min(datas[i]['Col2']), 
+                        max(datas[i]['Col2']) + 1, 
+                        1
+                    ), 
+                    align='right',density=True)
+                
+                # Fit
+                mu1, sigma1 = norm.fit(datas[i]['Col1'])
+                mu2, sigma2 = norm.fit(datas[i]['Col2'])
+                
+                xmin, xmax = plt.xlim()
+                x = np.linspace(xmin,xmax,100)
+                
+                p1 = norm.pdf(x,mu1,sigma1)
+                p2 = norm.pdf(x,mu2,sigma2)
+                
+                axs[0].plot(x,p1)
+                axs[1].plot(x,p2)
+                # axs[0].errorbar(x,p1,yerr=0.01,xerr=0.1)
+        
+            fig.legend()
+            plt.show()
     
-        data_lines = lines
-    
-        # Open the CSV file for writing
-        with open(csv_filename, 'w', newline='') as csv_file:
-            writer = csv.writer(csv_file)
-            
-            colums = "Time	Col1	Col2	Scale"
-            writer.writerow( colums.strip().split() )
-            
-            
-            # Write data to CSV file
-            for line in data_lines:
-                # Split the line into values based on whitespace
-                values = line.strip().split()
-                writer.writerow(values)
     \end{lstlisting}
 
 \section{Conclusion}
-    Summarize the main findings of the experiment, the implications of these findings, and potential areas for further research.
+    This experiment has provided quantifiable insights into the exponential nature of gamma radiation attenuation by lead. 
+    Our findings have confirmed that the intensity of radiation detected decreases as the thickness of lead shielding 
+    increases. This attenuation was characterized by a notable exponential trend rather than a linear one, indicating 
+    the complex interaction between gamma radiation and the lead barrier. The practical applications of these results 
+    are far-reaching, especially in enhancing safety protocols where radiation exposure is a concern. In medical imaging 
+    and radiotherapy, where precise dosage and protection are critical, to nuclear power generation and radioactive waste 
+    management, the insights from this study could inform better shielding designs, minimizing health risks while 
+    maximizing the efficacy of radiation use. Future research could explore a wider range of materials with different 
+    atomic numbers and densities to compare their shielding effectiveness. Additionally, investigating the secondary 
+    effects, such as the production of bremsstrahlung radiation when gamma rays interact with high-Z materials, could 
+    further refine our understanding of radiation protection. Finally, studying the impacts of different geometric 
+    configurations of the shielding could lead to the development of more effective and efficient protective structures.
+        \textbf{Acknowledgements:} I would like to thank Dr. Greg O. Sitz for his guidance and support in conducting this experiment and the UT Department of Physics for providing the necessary resources and equipment.
+
 
 \section{References}
     \begin{enumerate}
