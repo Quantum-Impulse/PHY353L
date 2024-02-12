@@ -143,8 +143,10 @@
                 
 
 \section{Results}
-    Present the data obtained from the experiment. Include your Python-generated graphs here. Use the following syntax to include images:
-    thickness
+    The experimental data collected from the Cobalt-60 source, under varying thicknesses of lead shielding, 
+    was analyzed to understand the effect of lead on radiation attenuation. The histograms in 
+    Figure \ref{fig:Radiation Detection Histogram} illustrate the distribution of detected radiation events for different lead 
+    thicknesses, alongside a control setup with no lead shielding.
 
     \begin{figure}[!htb]
         \centering
@@ -153,6 +155,22 @@
         \label{fig:Radiation Detection Histogram}
     \end{figure}
 
+    Each histogram was normalized to reflect the probability density, enabling a direct 
+    comparison between runs with different total counts. The histograms show a clear 
+    exponential decrease in event frequency with increasing lead thickness, supporting 
+    the hypothesis that lead effectively attenuates gamma radiation.
+    A Gaussian fit was applied to each dataset to quantify the central tendency (mean) 
+    and dispersion (standard deviation) of the events. The parameters of the fits 
+    indicate a shift in the mean towards lower values and an increase in the standard 
+    deviation with increasing lead thickness, suggesting a decrease in the intensity 
+    and a broadening of the distribution of detected events, respectively. This behavior 
+    is consistent with an exponential attenuation model, where the penetration of gamma 
+    rays through lead decreases exponentially with increased path length.
+    The fitting procedure, implemented in Python, utilized the norm.fit method from 
+    the scipy.stats library to estimate the parameters of a normal distribution that 
+    best describe the data. The resulting fits are shown as smooth curves overlayed on the 
+    histograms in Figure \ref{fig:Radiation Detection Histogram}.
+    The code snippet used for generating the histograms and fitting the data is as follows:
 
 
     \lstset{language=Python}
@@ -189,6 +207,9 @@
     Summarize the main findings of the experiment, the implications of these findings, and potential areas for further research.
 
 \section{References}
-    List the references cited in your report.
+    \begin{enumerate}
+        \item Greg O. Sitz. "PHY353L Spring 2024 Lecture 2" Lecture, Physics 353L, University of Texas, Austin, TX, January 29, 2024.
+        \item Radiation Detection Module. (n.d.). Retrieved September 14, 2021, from https://www.amptek.com/products/radiation-detection-module/
+    \end{enumerate}
 
 \end{document}
