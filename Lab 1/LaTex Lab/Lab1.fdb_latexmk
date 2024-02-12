@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1707736368.04525 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707736369.06515 0
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707736367.37147 15867 d4dcbe919630df2f7a5afe00d7c5a23e ""
+["pdflatex"] 1707736424.11988 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707736425.14626 0
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707736423.42969 15872 f018e8ac470e8a2405ec2c9c06cb4101 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1707688346.02282 14064 335bb026f6f6daa340f385df07b8179d ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
@@ -46,8 +46,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty" 1707610290.01149 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty" 1707610290.02411 205154 31132370016e8c97e49bc3862419679b ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1707610290.01325 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab1.aux" 1707736368.95467 2139 f9c654906e2c128f57382bd9b3d4441e "pdflatex"
-  "Lab1.tex" 1707736367.37147 15867 d4dcbe919630df2f7a5afe00d7c5a23e ""
+  "Lab1.aux" 1707736425.0387 2139 f9c654906e2c128f57382bd9b3d4441e "pdflatex"
+  "Lab1.tex" 1707736423.42969 15872 f018e8ac470e8a2405ec2c9c06cb4101 ""
   "img/other/Lab1 Apparatus.png" 1707715926.26771 215422 cd543cd9ec5aa51043ed014cfbd0ca50 ""
   "img/other/module.png" 1707719740.00472 301991 ea4e177a31372bae94ca6dba767308cd ""
   "img/plots/thickness.png" 1707727532.80796 166711 7785a6c093ec62ccac133601aa96e7ef ""
