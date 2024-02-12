@@ -51,6 +51,9 @@ INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./Lab1.aux
+INPUT ./Lab1.aux
+INPUT Lab1.aux
 OUTPUT Lab1.aux
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -74,11 +77,17 @@ INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/p
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm
 OUTPUT Lab1.pdf
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
+INPUT ./img/other/Lab1 Apparatus.png
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt12.tfm
 INPUT Lab1.aux
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
@@ -92,5 +101,3 @@ INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb

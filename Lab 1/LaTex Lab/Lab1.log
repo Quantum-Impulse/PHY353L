@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.2.10)  11 FEB 2024 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.2.10)  11 FEB 2024 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -150,8 +150,7 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box55
-)
-No file Lab1.aux.
+) (Lab1.aux)
 \openout1 = `Lab1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -168,7 +167,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-(/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count285
 \scratchdimen=\dimen164
@@ -234,49 +233,32 @@ Overfull \hbox (0.86026pt too wide) in paragraph at lines 32--45
 
 [1
 
-{/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] [2] (/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
+{/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+<./img/other/Lab1 Apparatus.png, id=10, 1912.14375pt x 1866.975pt>
+File: ./img/other/Lab1 Apparatus.png Graphic file (type png)
+<use ./img/other/Lab1 Apparatus.png>
+Package pdftex.def Info: ./img/other/Lab1 Apparatus.png  used on input line 67.
+(pdftex.def)             Requested size: 362.37569pt x 353.81734pt.
+ [2 <./img/other/Lab1 Apparatus.png>] (/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-
-LaTeX Warning: File `path/to/your/graph.png' not found on input line 111.
-
-
-/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex:111: Package pdftex.def Error: File `path/to/your/graph.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 ...th=0.8\textwidth]{path/to/your/graph.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] [4] (Lab1.aux)
+) [3] [4] (Lab1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4380 strings out of 476476
- 65488 string characters out of 5794063
- 1931975 words of memory out of 5000000
- 26366 multiletter control sequences out of 15000+600000
- 562365 words of font info for 51 fonts, out of 8000000 for 9000
+ 4357 strings out of 476476
+ 64863 string characters out of 5794063
+ 1935975 words of memory out of 5000000
+ 26342 multiletter control sequences out of 15000+600000
+ 562196 words of font info for 50 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,6n,65p,487b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Lab1.pdf (4 pages, 96149 bytes).
+ 57i,6n,65p,491b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Lab1.pdf (4 pages, 194581 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
