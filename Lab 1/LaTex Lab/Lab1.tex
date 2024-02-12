@@ -50,7 +50,6 @@
                 \item Cobalt-60 radioactive source
                 \item Lead sheets of varying thicknesses in mm (1.530, 3.060, 5.860, 8.670, 14.500, 20.300, 29.000) 
                 \item Scintillator
-                \item Lead sheets of varying thicknesses
                 \item Multi-channel analyzer (MCA) and single-channel analyzer (SCA)
                 \item Data acquisition Software (Maestro)
                 \item Python programming environment (miniconda with Python notebooks)
@@ -61,7 +60,7 @@
             The Cobalt-60 source emits gamma radiation, which is detected by the scintillator. 
             The lead sheets are placed between the source and the scintillator to measure the attenuation of the radiation. 
             The Radiation Detection Module is connected to a data acquisition system(Maestro), which records the intensity of the radiation over time in a histogram plot. 
-            Which the data is then passed to a Python program, which allows us to measure the radiation intensity at different lead thicknesses with our plot analysis.
+            The data is then passed to a Python program, which allows us to measure the radiation intensity at different lead thicknesses with our plot analysis.
             
             \begin{figure}[!htb]
                 \centering
@@ -82,15 +81,15 @@
             When a photon strikes the first dynode, it releases an electron, which is then accelerated towards the next dynode. 
             This process is repeated at each dynode, resulting in a cascade of electrons that is amplified at each stage. 
             The final output is a large number of electrons, which is then converted into an electrical pulse. 
-            This pulse is then passed to a electrical pre-amplifier to be then processed by the data acquisition system, 
+            This pulse is then passed to a electronic preamplifier to be then processed by the data acquisition system, 
             which records the number of pulses over a given time interval. 
             This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source.
 
             \begin{figure}[!htb]
                 \centering
                 \includegraphics[width=0.9\textwidth]{./img/other/module.png}
-                \caption{Radiation Detection Module}
-                \label{fig:Radiation Detection Module}
+                \caption{Radiation Detection Module [1]}
+                \label{fig:Radiation Detection Module [1]}
             \end{figure}
             
         \subsection{Single and Multi-Channel Analyzer (Cobalt-60 Gamma Ray Spectrum)}
@@ -99,24 +98,47 @@
             The multi-channel analyzer (MCA) is a device that allows us to record the number of pulses at each energy bin. 
             This allows us to measure the intensity of the radiation emitted by the Cobalt-60 source as a histogram 
             where number of occurrences for a specific energy bin is measure as a count. 
-            The MCA and the SCA is connected to a computer, which allows us to record and visualize the data. 
+            The MCA and the SCA is connected to a computer, which allows us to record and visualize the data. The MCA creates a spectrum of the detected events
             The data is then processed using a Python program, which allows us to compare the radiation intensity at different lead thicknesses.
             
         \subsection{Data Collection}
-            The data acquisition system records the intensity of the radiation emitted by the Cobalt-60 source at different lead thicknesses. 
-            The data is then processed using a Python program, which allows us to measure the radiation intensity at each thickness. 
-            This data is then used to generate graphs of the radiation intensity as a function of lead thickness. 
-            These graphs are then analyzed to determine the relationship between lead thickness and radiation attenuation.
+            The data acquisition system record the intensity of the radiation emitted by the Cobalt-60 source at different lead thicknesses. 
+            The data is then processed using a Python program, where the the data first was exported from the data acquisition system.
+            Initially, the data was exported as a .lvm file from the data acquisition system and then converted to a .csv file. 
+            Subsequently, it was read into a Python program using the Pandas library.
+            From data, graphs are generate to show the radiation intensity at different lead thicknesses. 
+            These graphs are then analyzed to determine the relationship between lead thickness and radiation attenuation using 
+            Possion distribution fit on the histograms of the data.
+            
             \lstset{language=Python}
             \lstset{frame=lines}
-            \lstset{caption={Insert code directly in your document}}
+            \lstset{caption={LVM to CSV Code Snippet}}
             \lstset{label={lst:code_direct}}
             \lstset{basicstyle=\footnotesize}
             \begin{lstlisting}
-            from brg.datastructures import Mesh
+
+                def lvm_to_csv(lvm_filename, csv_filename):
+                # Remove the head data from the LVM file first
+                # Open the LVM file for reading
+                with open(lvm_filename, 'r') as lvm_file:
+                    # Read the entire file into memory
+                    lines = lvm_file.readlines()
             
-            mesh = Mesh.from_obj('faces.obj')
-            mesh.draw()
+                data_lines = lines
+            
+                # Open the CSV file for writing
+                with open(csv_filename, 'w', newline='') as csv_file:
+                    writer = csv.writer(csv_file)
+                    
+                    colums = "Time	Col1	Col2	Scale"
+                    writer.writerow( colums.strip().split() )
+                    
+                    
+                    # Write data to CSV file
+                    for line in data_lines:
+                        # Split the line into values based on whitespace
+                        values = line.strip().split()
+                        writer.writerow(values)
             \end{lstlisting}
                 
 
