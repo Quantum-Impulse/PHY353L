@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1707716162.49763 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707716163.28729 0
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707716161.00356 8148 8144d671bb3a8fb8d6bd29207fe46f39 ""
+["pdflatex"] 1707717076.98253 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" "Lab1.pdf" "Lab1" 1707717077.97416 0
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 1/LaTex Lab/Lab1.tex" 1707717075.26659 8260 960f8df047a508e8e17912339d8b91d7 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1707688346.02282 14064 335bb026f6f6daa340f385df07b8179d ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
@@ -44,8 +44,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty" 1707610290.01149 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstlang1.sty" 1707610290.02411 205154 31132370016e8c97e49bc3862419679b ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1707610290.01325 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab1.aux" 1707716163.1812 1600 93e4d4474a968d0be19463a29dfc65b8 "pdflatex"
-  "Lab1.tex" 1707716161.00356 8148 8144d671bb3a8fb8d6bd29207fe46f39 ""
+  "Lab1.aux" 1707717077.83932 1600 5f65e382cc7b312c4252e056d321fee1 "pdflatex"
+  "Lab1.tex" 1707717075.26659 8260 960f8df047a508e8e17912339d8b91d7 ""
   "img/other/Lab1 Apparatus.png" 1707715926.26771 215422 cd543cd9ec5aa51043ed014cfbd0ca50 ""
   (generated)
   "Lab1.aux"
