@@ -24,23 +24,45 @@
 
 \section{Introduction}
     \subsection{Background and Theory}
-            Compton scattering represents a quintessential quantum mechanical event that sheds light on the relativistic behaviors of electron motion. Through the study of electrons released from Na-22 decay, we embark on a journey to scrutinize the accuracy of classical versus relativistic physical laws.
+
+        \subsubsection{Gamma Decay Spectrum} 
+        The gamma decay spectrum is a plot of the number of gamma rays emitted by a radioactive sample as a function of their energy.
+        This is most commonly done taking data for a long period of time and then plotting the number of gamma rays detected at each energy level to form a histogram.
+        This graph is then used to determine the energy of the emitted electrons and the intensity of the radiation emitted by the samples.
+
+        The photoelectric effect plays a crucial role in the gamma decay spectrum. The photoelectric effect is the process by 
+        which a photon is absorbed by an electron, causing it to be ejected from the atom. This process is responsible for the
+        photopeak in the gamma decay spectrum, which is the most common energy of the electrons emitted by the sample.
+        
+        The main traits of the graph are the Compton edge, the photopeak, and the backscatter peak. 
+        The Compton edge is the maximum energy of the electrons emitted by the sample, the photopeak is the most common 
+        energy of the electrons emitted by the sample, and the backscatter peak is the energy of the electrons that were emitted 
+        by the sample and then scattered back into the detector. Knowing this we can then determine those values experimentally 
+        and compare them to the theoretical values.
+        \\ \\
+        
+        One of the most important concepts that relate to the gamma spce decay graph is the compton scattering. Which represents a 
+        quintessential quantum mechanical event that sheds light on the relativistic 
+        behaviors of electron motion. Through the study of electrons released from Na-22 decay, we embark on a journey 
+        to scrutinize the accuracy of classical versus relativistic physical laws.
             
-            \subsubsection{Relativistic Kinematics}
-                    Within the realm of relativistic kinematics, we investigate the trajectories of objects devoid of the influences that set them into motion. Our focus is to delve into how Einstein's relativistic principles affect electrons traveling at substantial fractions of the speed of light.
-                    
-                    The formula connecting a particle's total energy (E), momentum (p), and rest mass (m) within the framework of relativity is
-                    \begin{equation}
-                    E^2 = p^2c^2 + m^2c^4,
-                    \end{equation}
-                    with \( c \) symbolizing the constant speed of light. From this, we derive the expression for relativistic kinetic energy (K) as
-                    \begin{equation}
-                    E = K + mc^2.
-                    \end{equation}
-                    Subsequently, this allows us to express kinetic energy as
-                    \begin{equation}
-                    K = \sqrt{p^2c^2 + m^2c^4} - mc^2.
-                    \end{equation}
+        \subsubsection{Relativistic Kinematics}
+                Within the realm of relativistic kinematics, we investigate the trajectories of objects devoid of 
+                the influences that set them into motion. Our focus is to delve into how Einstein's relativistic 
+                principles affect electrons traveling at substantial fractions of the speed of light.
+                
+                The formula connecting a particle's total energy (E), momentum (p), and rest mass (m) within the framework of relativity is
+                \begin{equation}
+                E^2 = p^2c^2 + m^2c^4,
+                \end{equation}
+                with \( c \) symbolizing the constant speed of light. From this, we derive the expression for relativistic kinetic energy (K) as
+                \begin{equation}
+                E = K + mc^2.
+                \end{equation}
+                Subsequently, this allows us to express kinetic energy as
+                \begin{equation}
+                K = \sqrt{p^2c^2 + m^2c^4} - mc^2.
+                \end{equation}
 
             
             \subsubsection{Non-Relativistic}                
@@ -91,7 +113,7 @@
 
                 \begin{figure}[!htb]
                         \centering
-                        \includegraphics[width=0.5\textwidth]{./img/other/module.png}
+                        \includegraphics[width=0.9\textwidth]{./img/other/module.png}
                         \caption{Radiation Detection Module [1].  Schematic representation of a radiation detection module illustrating the process of scintillation and subsequent signal amplification. A high-energy photon entering the scintillator produces low-energy photons through ionization, which are then converted to a photoelectron at the photocathode. This primary electron is focused and multiplied through the Photomultiplier Tube (PMT) stages, resulting in an amplified electrical signal at the anode, ready for readout through the connector pins.}
                         \label{fig:Radiation Detection Module [1]}
                 \end{figure}
@@ -126,6 +148,11 @@
                                 \label{fig:Schematic of the experimental setup. The scintillation detector is used to measure the energy of the emitted electrons.}
                         \end{figure}
 
+                        For the Python analysis, the data was read in using the Maestro software which was outputed as a 
+                        spe file which was converted to a csv with a custom python program that also took into account 
+                        the energy calibration. We then visualized and analyzed this data using the Pandas, Matplotlib, and Altir libraries. 
+                        The data was then plotted to show gamma decay spectrum and the notable traits of the graph.
+
 
 
 \section{Results}
@@ -153,7 +180,7 @@
                 \caption{Energy vs. Momentum for Co-60.}
         \end{figure}
                         
-        end text
+
                         
         \subsection{Discussion}
                 \subsubsection{Interpretation}
@@ -170,9 +197,13 @@
 
 \section{References}
     \begin{enumerate}
+        \sloppy
+
         \item Greg O. Sitz. "PHY353L Spring 2024 Lecture 2" Lecture, Physics 353L, University of Texas, Austin, TX, January 29, 2024.
         \item Radiation Detection Module. (n.d.). Retrieved September 14, 2021, from https://www.amptek.com/products/radiation-detection-module/
         \item J. Higbie, Am. J. Phys. 42, 642 (1974), Undergraduate Relativity Experiment.
+        \item The Science and Maths Zone. (2021, March 14). The Photoelectric Effect, Photons and Planck’s Equation. The Science and Maths Zone. https://thescienceandmathszone.com/the-photoelectric-effect-photons-and-plancks-equation/
+
     \end{enumerate}
 
 \end{document}

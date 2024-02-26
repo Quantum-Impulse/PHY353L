@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1708971374.10829 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708971374.92646 0
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708971372.59242 11703 a1533aeeeb4a7bfbe5c05b3c8d6eb232 ""
+["pdflatex"] 1708979185.30577 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708979186.21787 0
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708979184.59757 13958 9ad8dc34c174b4a31660ecb540283b51 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1707610282.58417 1004 54797486969f23fa377b128694d548df ""
@@ -54,8 +54,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg" 1707610290.02721 1829 d8258b7d94f5f955e70c623e525f9f45 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty" 1707610290.01149 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1707610290.01325 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab2.aux" 1708971374.81026 3546 e1c475d59ba0b5a6b42b4773d7d2013e "pdflatex"
-  "Lab2.tex" 1708971372.59242 11703 a1533aeeeb4a7bfbe5c05b3c8d6eb232 ""
+  "Lab2.aux" 1708979186.09047 3664 430ff985f722f9eab843695911ad44d5 "pdflatex"
+  "Lab2.tex" 1708979184.59757 13958 9ad8dc34c174b4a31660ecb540283b51 ""
   "img/other/Lab2 Apparatus.drawio.png" 1708923516.3289 35759 4541ce640f3a631d9c53a10fb890e7de ""
   "img/other/module.png" 1708924606.29976 301991 ea4e177a31372bae94ca6dba767308cd ""
   "img/plots/Graph1.png" 1708922488.30142 41633 0c64fa1e4e52337e8170879e1db1fe06 ""
