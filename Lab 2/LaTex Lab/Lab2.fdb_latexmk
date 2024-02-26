@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1708909893.48063 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708909893.97563 0
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708909892.30511 1839 f922f000c081942e4d8ba05368c0c3a5 ""
+["pdflatex"] 1708910842.50677 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708910843.01675 0
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708910841.84613 1591 6df5cc2add260d3d96eaf20b7af4bb37 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1707610282.58417 1004 54797486969f23fa377b128694d548df ""
@@ -41,8 +41,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg" 1707610290.02721 1829 d8258b7d94f5f955e70c623e525f9f45 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty" 1707610290.01149 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1707610290.01325 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab2.aux" 1708909893.88797 1290 88c138a0304c3b97c10a9b34ca8f5bbf "pdflatex"
-  "Lab2.tex" 1708909892.30511 1839 f922f000c081942e4d8ba05368c0c3a5 ""
+  "Lab2.aux" 1708910842.92733 2885 2cc7860f03b8804def522335e34b10ef "pdflatex"
+  "Lab2.tex" 1708910841.84613 1591 6df5cc2add260d3d96eaf20b7af4bb37 ""
   (generated)
   "Lab2.aux"
   "Lab2.log"
