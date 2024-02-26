@@ -1,10 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1708908682.25775 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708908682.78892 0
-  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708908681.15884 1413 57d30478085557c31b649e327dce1d92 ""
+["pdflatex"] 1708909893.48063 "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" "Lab2.pdf" "Lab2" 1708909893.97563 0
+  "/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 2/LaTex Lab/Lab2.tex" 1708909892.30511 1839 f922f000c081942e4d8ba05368c0c3a5 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1707612759.53738 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1707612755.15152 21033843 f27e90dd0a285d10259d28844c48c1fc ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1707610282.58417 1004 54797486969f23fa377b128694d548df ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm" 1707610285.23996 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm" 1707610285.24006 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm" 1707610285.24161 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm" 1707610285.24253 1524 4414a8315f39513458b80dfc63bff03a ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr10.tfm" 1707610285.24464 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -12,6 +13,7 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm" 1707610285.24508 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm" 1707610285.24931 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1707610282.61826 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1707610282.62035 32080 340ef9bf63678554ee606688e7b5339d ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1707610282.67499 35752 024fb6c41858982481f6968b5fc26508 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1707610282.67697 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1707610282.67929 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -39,8 +41,8 @@
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg" 1707610290.02721 1829 d8258b7d94f5f955e70c623e525f9f45 ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty" 1707610290.01149 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "/Users/apple/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty" 1707610290.01325 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab2.aux" 1708908682.6925 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Lab2.tex" 1708908681.15884 1413 57d30478085557c31b649e327dce1d92 ""
+  "Lab2.aux" 1708909893.88797 1290 88c138a0304c3b97c10a9b34ca8f5bbf "pdflatex"
+  "Lab2.tex" 1708909892.30511 1839 f922f000c081942e4d8ba05368c0c3a5 ""
   (generated)
   "Lab2.aux"
   "Lab2.log"
