@@ -16,42 +16,163 @@
 \maketitle
 
 \begin{abstract}
-    In our investigation, we examined how varying thicknesses of lead
+        This paper presents an investigation into the relativistic effects on electrons emitted through 
+        the decay of Sodium-22 (Na-22), Cobalt-60 (Co-60), and etc. By analyzing the energy and momentum of these electrons, 
+        we compare experimental data with classical Newtonian and relativistic predictions to underscore 
+        the necessity of relativistic considerations at high energies.
 \end{abstract}
 
 \section{Introduction}
-        \subsection[short]{Brackground and Theory}
-                \subsubsection{Relativistic Kinematics}
-                \subsubsection{Relativistic Dynamics}
-                \subsubsection{Relativistic Energy}
-        \subsection[short]{Purpose}
+    \subsection{Background and Theory}
+            Compton scattering represents a quintessential quantum mechanical event that sheds light on the relativistic behaviors of electron motion. Through the study of electrons released from Na-22 decay, we embark on a journey to scrutinize the accuracy of classical versus relativistic physical laws.
+            
+            \subsubsection{Relativistic Kinematics}
+                    Within the realm of relativistic kinematics, we investigate the trajectories of objects devoid of the influences that set them into motion. Our focus is to delve into how Einstein's relativistic principles affect electrons traveling at substantial fractions of the speed of light.
+                    
+                    The formula connecting a particle's total energy (E), momentum (p), and rest mass (m) within the framework of relativity is
+                    \begin{equation}
+                    E^2 = p^2c^2 + m^2c^4,
+                    \end{equation}
+                    with \( c \) symbolizing the constant speed of light. From this, we derive the expression for relativistic kinetic energy (K) as
+                    \begin{equation}
+                    E = K + mc^2.
+                    \end{equation}
+                    Subsequently, this allows us to express kinetic energy as
+                    \begin{equation}
+                    K = \sqrt{p^2c^2 + m^2c^4} - mc^2.
+                    \end{equation}
+
+            
+            \subsubsection{Non-Relativistic}                
+                    In contrast, the nonrelativistic equation linking kinetic energy, momentum, and mass is
+                    \begin{equation}
+                    K = \frac{p^2}{2m}.
+                    \end{equation}
+                    Originating from Newtonian mechanics, this relationship holds true for particles moving at speeds significantly lower than that of light.
+            
+            \subsubsection{Comparison}
+                    A juxtaposition of classical and relativistic mechanics unveils the constraints of Newtonian principles when faced with high-energy scenarios. The relativistic formula for kinetic energy coincides with its classical counterpart at subdued velocities, yet the two diverge as speed escalates. Our experiment is designed to empirically substantiate relativistic dynamics and expose the confines of classical physics in scenarios of substantial energy.
+
+                    The divergence of Eqs. 3 and 4 is evident. Our experimental objective is to ascertain both \( p \) and \( K \) for electrons travelling at relativistic velocities to confirm the veracity of the respective equations.
+
+                    In the event of Compton scattering, a photon collides elastically with an electron, imparting maximum momentum to the electron during direct, or 'head-on', encounters. Such encounters occur at 180 degrees, where the photon rebounds in the precise opposite trajectory of its initial path, propelling the electron forward. Assuming the electron was stationary at the outset, the laws of momentum and energy conservation facilitate the calculation of the electron's recoil momentum, contingent on the energy of the incoming photon (\( E_\gamma \)) and the kinetic energy of the electron (K). This relationship is given by
+                    \begin{equation}
+                    p = \frac{2E_\gamma}{c} - \frac{K}{c}.
+                    \end{equation}
+
+                    This equation holds universally. Measurement of both the incident photon's energy and the electron's kinetic energy can be performed with a scintillation detector. Utilizing Eq. 5, the electron's momentum can be deduced. Consequently, we are able to experimentally determine \( p \) and \( K \), and contrast the predictions made by Eqs. 3 and 4. The classical expectation is \( K = \frac{p^2}{2m} \), while the relativistic forecast is \( K = \sqrt{ p^2c^2 + m^2c^4 } - mc^2 \). Our experiment seeks to establish which prediction holds true.
+
+    \subsection{Purpose}
+            This experiment is committed to the empirical confirmation of relativistic dynamics' theoretical projections and to delineate the boundaries of classical mechanics under the duress of high-energy conditions.
 
 
 \section{Experimental Setup and Procedure}
         \subsection{Apparatus}
                 \subsubsection{Equipment}
+                The The following equipment (or equivalent) is needed for the experiment:
+
+                        \begin{enumerate}
+                                \item Gamma Source Kit Samples(Na-22, Co-60, etc.)
+                                \item Scintillation Detector
+                                \item Photomultiplier Tube
+                                \item Amplifier ( Linear Amplifier (ORTEC 672))
+                                \item Multichannel Analyzer
+                                \item Computer
+                        \end{enumerate}
+                        
+                \subsubsection{Scintillation Detector}
+                        The scintillator is a device that detects radiation by converting the energy of incoming
+                        photons into visible light. This light is then detected by a photomultiplier tube, which
+                        amplifies the signal and converts it into an electrical pulse. The scintillator used in
+                        this experiment is a sodium iodide (NaI) crystal, which is commonly used for detecting
+                        gamma radiation. The crystal is coupled to a photomultiplier tube, which amplifies the
+                        light signal and converts it into an electrical pulse
+                
+
+                \begin{figure}[!htb]
+                        \centering
+                        \includegraphics[width=0.5\textwidth]{./img/other/module.png}
+                        \caption{Radiation Detection Module [1].  Schematic representation of a radiation detection module illustrating the process of scintillation and subsequent signal amplification. A high-energy photon entering the scintillator produces low-energy photons through ionization, which are then converted to a photoelectron at the photocathode. This primary electron is focused and multiplied through the Photomultiplier Tube (PMT) stages, resulting in an amplified electrical signal at the anode, ready for readout through the connector pins.}
+                        \label{fig:Radiation Detection Module [1]}
+                \end{figure}
+
+                \subsubsection{Photomultiplier Tube}
+                        The photomultiplier tube is a device that converts the light signal from the scintillator
+                        into an electrical pulse. It consists of a series of dynodes, which are metal electrodes
+                        that are held at successively higher voltages. When a photon strikes the first dynode, it
+                        releases an electron, which is then accelerated towards the next dynode. This process is
+                        repeated at each dynode, resulting in a cascade of electrons that is amplified at each stage.
+                        The final output is a large number of electrons, which is then converted into an electrical
+                        pulse. This pulse is then passed to a electronic preamplifier to be then processed by the
+                        data acquisition system, which records the number of pulses over a given time interval.
+                        This allows us to measure the intensity of the radiation emitted by the samples.
+
+                        
                 \subsubsection{Schematic}
-        \subsection{Procedure}
-                \subsubsection{Data Collection}
-                \subsubsection{Data Analysis}
- 
+                        This is a schematic of the experimental setup, which can be seen below in figure 2: \\ \\
+                        
+                        
+                        The figure was kept simple to illustrate the basic components of the setup. 
+                        The scintillation detector is used to measure the energy of the emitted electrons. 
+                        The pulses from the scintillation detector are then passed to a linear amplifier and then 
+                        to a multichannel analyzer, which records the number of pulses over a given time interval. 
+                        The data is then analyzed to determine the energy of the emitted electrons and the intensity 
+                        of the radiation emitted by the samples using Maestro.
+
+                        \begin{figure}[htb!]
+                                \centering
+                                \includegraphics[width=0.4\textwidth]{./img/other/Lab2 Apparatus.drawio.png}
+                                \caption{Schematic of the experimental setup. The scintillation detector is used to measure the energy of the emitted electrons.}
+                                \label{fig:Schematic of the experimental setup. The scintillation detector is used to measure the energy of the emitted electrons.}
+                        \end{figure}
+
+
+
 \section{Results}
-        \subsection{Data}
-                \subsubsection{Raw Data}
-                \subsubsection{Processed Data}
-        \subsection{Analysis}
-                \subsubsection{Graphs}
-                \subsubsection{Tables}
-                \subsubsection{Error Analysis}
-        \section{Discussion}
-                \subsection{Interpretation}
-                \subsection{Comparison}
-                \subsection{Conclusion}
+        \subsection{Data and Analysis}
+        fasdfasdfasd fasdf asdf asfd asfa sfasd f
+
+\newpage
+\vfill
+
+        \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.9\textwidth]{./img/plots/graph2.png}
+                \caption{Energy vs. Momentum for Na-22.}
+        \end{figure}
+
+        \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.6\textwidth]{./img/plots/Graph3.png}
+                \caption{Energy vs. Momentum for Co-60.}
+        \end{figure}
+        
+        \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.6\textwidth]{./img/plots/Graph1.png}
+                \caption{Energy vs. Momentum for Co-60.}
+        \end{figure}
+                        
+        end text
+                        
+        \subsection{Discussion}
+                \subsubsection{Interpretation}
+                text
+                \subsubsection{Comparison}
+                text
+
+\vfill
 
 
 \section{Conclusion}
+        So from the results we can see that the experimental data is consistent with the relativistic predictions. This confirms the validity of the relativistic equations for kinetic energy and momentum. This also highlights the limitations of classical mechanics at high energies, and the necessity of relativistic considerations in such scenarios.
 
 
 \section{References}
+    \begin{enumerate}
+        \item Greg O. Sitz. "PHY353L Spring 2024 Lecture 2" Lecture, Physics 353L, University of Texas, Austin, TX, January 29, 2024.
+        \item Radiation Detection Module. (n.d.). Retrieved September 14, 2021, from https://www.amptek.com/products/radiation-detection-module/
+        \item J. Higbie, Am. J. Phys. 42, 642 (1974), Undergraduate Relativity Experiment.
+    \end{enumerate}
 
 \end{document}
