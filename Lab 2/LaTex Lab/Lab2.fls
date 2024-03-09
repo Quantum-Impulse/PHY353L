@@ -75,8 +75,6 @@ INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/p
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT Lab2.pdf
-INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
@@ -88,6 +86,15 @@ INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/p
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ./img/other/photoeletric_effect.png
+INPUT ./img/other/photoeletric_effect.png
+INPUT ./img/other/photoeletric_effect.png
+INPUT ./img/other/photoeletric_effect.png
+OUTPUT Lab2.pdf
+INPUT ./img/other/photoeletric_effect.png
+INPUT ./img/other/photoeletric_effect.png
+INPUT ./img/other/photoeletric_effect.png
+INPUT /Users/apple/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT ./img/other/module.png
 INPUT ./img/other/module.png
 INPUT ./img/other/module.png
@@ -109,6 +116,13 @@ INPUT ./img/plots/graph2.png
 INPUT ./img/plots/graph2.png
 INPUT ./img/plots/graph2.png
 INPUT ./img/plots/graph2.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
+INPUT ./img/plots/Co60.png
 INPUT ./img/plots/Graph3.png
 INPUT ./img/plots/Graph3.png
 INPUT ./img/plots/Graph3.png

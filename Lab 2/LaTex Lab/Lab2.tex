@@ -29,17 +29,33 @@
         The gamma decay spectrum is a plot of the number of gamma rays emitted by a radioactive sample as a function of their energy.
         This is most commonly done taking data for a long period of time and then plotting the number of gamma rays detected at each energy level to form a histogram.
         This graph is then used to determine the energy of the emitted electrons and the intensity of the radiation emitted by the samples.
+        \\
+        
+       The light pulses from the scintillator (NaI) are proportional to the 
+        energy given to a primary electron in the detector by the incident $\gamma$-ray photon. Within the resolution of the detector, 
+        whatever energy is given to this electron appears as the height of an output pulse. Energies of $\gamma$-rays are typically in 
+        the MeV region and are thus of the order of one to several electron rest masses (0.511 MeV). Which in turn, the primary electron 
+        is highly relativistic and exhibits relativistic behavior.
+        \\ 
 
         The photoelectric effect plays a crucial role in the gamma decay spectrum. The photoelectric effect is the process by 
         which a photon is absorbed by an electron, causing it to be ejected from the atom. This process is responsible for the
-        photopeak in the gamma decay spectrum, which is the most common energy of the electrons emitted by the sample.
-        
+        photopeak in the gamma decay spectrum, which is the most common energy of the electrons emitted by the sample. 
+        \\
+
+        \begin{figure}[]
+                \centering
+                \includegraphics[width=0.6\textwidth]{./img/other/photoeletric_effect.png}
+                \caption{Photoelectric Effect [4].  A visualize representation of a photon being absorbed by an electron, causing it to be ejected from the atom. This process is responsible for the photopeak in the gamma decay spectrum.}
+                \label{fig:Photoelectric Effect [4]}
+        \end{figure}
+
         The main traits of the graph are the Compton edge, the photopeak, and the backscatter peak. 
         The Compton edge is the maximum energy of the electrons emitted by the sample, the photopeak is the most common 
         energy of the electrons emitted by the sample, and the backscatter peak is the energy of the electrons that were emitted 
         by the sample and then scattered back into the detector. Knowing this we can then determine those values experimentally 
         and compare them to the theoretical values.
-        \\ \\
+        \\ 
         
         One of the most important concepts that relate to the gamma spce decay graph is the compton scattering. Which represents a 
         quintessential quantum mechanical event that sheds light on the relativistic 
@@ -157,10 +173,36 @@
 
 \section{Results}
         \subsection{Data and Analysis}
-        fasdfasdfasd fasdf asdf asfd asfa sfasd f
 
-\newpage
-\vfill
+                \subsubsection{Na-22}
+                The data for Na-22 was analyzed and the energy of the emitted electrons was determined. 
+                The energy of the emitted electrons was then plotted as a function of their momentum, 
+                as shown in figure 3. The data was then fitted to a linear function to determine the slope 
+                of the line, which is the speed of the electrons. The speed of the electrons was then compared 
+                to the speed of light to determine if the electrons were traveling at relativistic speeds.
+
+                \subsubsection{Co-60}
+                The data for Co-60 was analyzed and the energy of the emitted electrons was determined. 
+                The energy of the emitted electrons was then plotted as a function of their momentum, 
+                as shown in figure 4. The data was then fitted to a linear function to determine the slope 
+                of the line, which is the speed of the electrons. The speed of the electrons was then compared 
+                to the speed of light to determine if the electrons were traveling at relativistic speeds.
+
+                \subsubsection{Compton Edge}
+                The Compton edge was determined by analyzing the data for the Compton scattering of the electrons. 
+                The energy of the electrons was then plotted as a function of their momentum, as shown in figure 6. 
+                The data was then fitted to a sinusoidal function to determine the Compton edge, which is the maximum 
+                energy of the electrons emitted by the sample. The Compton edge was then compared to the theoretical 
+                value to determine if the electrons were traveling at relativistic speeds.
+
+                \subsubsection{Comparison}
+                The experimental data was then compared to the theoretical predictions for the energy and momentum of the 
+                emitted electrons. The experimental data was found to be consistent with the relativistic predictions as shown in figure 7. 
+                Confirming the validity of the relativistic equations for kinetic energy and momentum. This also highlights 
+                the limitations of classical mechanics at high energies, and the necessity of relativistic considerations in such scenarios.
+        
+
+
 
         \begin{figure}[h!]
                 \centering
@@ -170,8 +212,14 @@
 
         \begin{figure}[h!]
                 \centering
-                \includegraphics[width=0.6\textwidth]{./img/plots/Graph3.png}
+                \includegraphics[width=0.9\textwidth]{./img/plots/Co60.png}
                 \caption{Energy vs. Momentum for Co-60.}
+        \end{figure}
+
+        \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.6\textwidth]{./img/plots/Graph3.png}
+                \caption{Sinusoidal Curve Fitting for Compton Edge}
         \end{figure}
         
         \begin{figure}[h!]
@@ -181,14 +229,6 @@
         \end{figure}
                         
 
-                        
-        \subsection{Discussion}
-                \subsubsection{Interpretation}
-                text
-                \subsubsection{Comparison}
-                text
-
-\vfill
 
 
 \section{Conclusion}
