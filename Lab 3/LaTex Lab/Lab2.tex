@@ -6,7 +6,7 @@
 \usepackage{listings} % For including code snippets
 \geometry{a4paper, margin=1in}
 
-\title{Relativistic Dynamics}
+\title{Chaot Dynamics}
 \author{Enrique Rivera Jr. \\
         Physics Undergraduate, \\ 
         The University of Texas at Austin}
@@ -43,12 +43,6 @@
         photopeak in the gamma decay spectrum, which is the most common energy of the electrons emitted by the sample. 
         \\
 
-        \begin{figure}[]
-                \centering
-                \includegraphics[width=0.6\textwidth]{./img/other/photoeletric_effect.png}
-                \caption{Photoelectric Effect [4].  A visualize representation of a photon being absorbed by an electron, causing it to be ejected from the atom. This process is responsible for the photopeak in the gamma decay spectrum.}
-                \label{fig:Photoelectric Effect [4]}
-        \end{figure}
 
         The main traits of the graph are the Compton edge, the photopeak, and the backscatter peak. 
         The Compton edge is the maximum energy of the electrons emitted by the sample, the photopeak is the most common 
@@ -125,14 +119,7 @@
                         this experiment is a sodium iodide (NaI) crystal, which is commonly used for detecting
                         gamma radiation. The crystal is coupled to a photomultiplier tube, which amplifies the
                         light signal and converts it into an electrical pulse
-                
 
-                \begin{figure}[!htb]
-                        \centering
-                        \includegraphics[width=0.9\textwidth]{./img/other/module.png}
-                        \caption{Radiation Detection Module [1].  Schematic representation of a radiation detection module illustrating the process of scintillation and subsequent signal amplification. A high-energy photon entering the scintillator produces low-energy photons through ionization, which are then converted to a photoelectron at the photocathode. This primary electron is focused and multiplied through the Photomultiplier Tube (PMT) stages, resulting in an amplified electrical signal at the anode, ready for readout through the connector pins.}
-                        \label{fig:Radiation Detection Module [1]}
-                \end{figure}
 
                 \subsubsection{Photomultiplier Tube}
                         The photomultiplier tube is a device that converts the light signal from the scintillator
@@ -157,12 +144,6 @@
                         The data is then analyzed to determine the energy of the emitted electrons and the intensity 
                         of the radiation emitted by the samples using Maestro.
 
-                        \begin{figure}[htb!]
-                                \centering
-                                \includegraphics[width=0.4\textwidth]{./img/other/Lab2 Apparatus.drawio.png}
-                                \caption{Schematic of the experimental setup. The scintillation detector is used to measure the energy of the emitted electrons.}
-                                \label{fig:Schematic of the experimental setup. The scintillation detector is used to measure the energy of the emitted electrons.}
-                        \end{figure}
 
                         For the Python analysis, the data was read in using the Maestro software which was outputed as a 
                         spe file which was converted to a csv with a custom python program that also took into account 
@@ -203,31 +184,6 @@
         
 
 
-
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.9\textwidth]{./img/plots/graph2.png}
-                \caption{Energy vs. Momentum for Na-22.}
-        \end{figure}
-
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.9\textwidth]{./img/plots/Co60.png}
-                \caption{Energy vs. Momentum for Co-60.}
-        \end{figure}
-
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.6\textwidth]{./img/plots/Graph3.png}
-                \caption{Sinusoidal Curve Fitting for Compton Edge}
-        \end{figure}
-        
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.6\textwidth]{./img/plots/Graph1.png}
-                \caption{Energy vs. Momentum for Co-60.}
-        \end{figure}
-                        
 
 
 
