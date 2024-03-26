@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  9 MAR 2024 02:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  10 MAR 2024 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 3/LaTex Lab/Lab2.tex"
-(/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 3/LaTex Lab/Lab2.tex
+**"/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 3/LaTex Lab/Lab3.tex"
+(/Users/apple/Documents/School/Year 3 Spring/PHY 353L/Labs/Lab 3/LaTex Lab/Lab3.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -149,8 +149,8 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box55
-) (./Lab2.aux)
-\openout1 = `Lab2.aux'.
+) (./Lab3.aux)
+\openout1 = `Lab3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -222,40 +222,111 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \c@lstlisting=\count289
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<./img/other/circuit_img.png, id=14, 2031.59pt x 1324.95pt>
+File: ./img/other/circuit_img.png Graphic file (type png)
+<use ./img/other/circuit_img.png>
+Package pdftex.def Info: ./img/other/circuit_img.png  used on input line 130.
+(pdftex.def)             Requested size: 317.07614pt x 206.78032pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+<./img/plots/Trail1_VonV.png, id=19, 614.295pt x 341.8371pt>
+File: ./img/plots/Trail1_VonV.png Graphic file (type png)
+<use ./img/plots/Trail1_VonV.png>
+Package pdftex.def Info: ./img/plots/Trail1_VonV.png  used on input line 178.
+(pdftex.def)             Requested size: 317.07614pt x 176.44186pt.
+ [4 <./img/other/circuit_img.png> <./img/plots/Trail1_VonV.png>]
+<./img/plots/Trail1_O.png, id=25, 412.6617pt x 330.2739pt>
+File: ./img/plots/Trail1_O.png Graphic file (type png)
+<use ./img/plots/Trail1_O.png>
+Package pdftex.def Info: ./img/plots/Trail1_O.png  used on input line 185.
+(pdftex.def)             Requested size: 317.07614pt x 253.77243pt.
+<./img/plots/Trial2_VonV.png, id=26, 610.6815pt x 341.8371pt>
+File: ./img/plots/Trial2_VonV.png Graphic file (type png)
+<use ./img/plots/Trial2_VonV.png>
+Package pdftex.def Info: ./img/plots/Trial2_VonV.png  used on input line 193.
+(pdftex.def)             Requested size: 317.07614pt x 177.49028pt.
+ [5 <./img/plots/Trail1_O.png>]
+<./img/plots/Trail2_O.png, id=31, 409.0482pt x 330.2739pt>
+File: ./img/plots/Trail2_O.png Graphic file (type png)
+<use ./img/plots/Trail2_O.png>
+Package pdftex.def Info: ./img/plots/Trail2_O.png  used on input line 200.
+(pdftex.def)             Requested size: 317.07614pt x 256.02008pt.
+<./img/plots/Trail3_VonV.png, id=32, 610.6815pt x 341.8371pt>
+File: ./img/plots/Trail3_VonV.png Graphic file (type png)
+<use ./img/plots/Trail3_VonV.png>
+Package pdftex.def Info: ./img/plots/Trail3_VonV.png  used on input line 208.
+(pdftex.def)             Requested size: 317.07614pt x 177.49028pt.
+ [6 <./img/plots/Trial2_VonV.png> <./img/plots/Trail2_O.png>]
+<./img/plots/Trail3_O.png, id=38, 409.0482pt x 330.2739pt>
+File: ./img/plots/Trail3_O.png Graphic file (type png)
+<use ./img/plots/Trail3_O.png>
+Package pdftex.def Info: ./img/plots/Trail3_O.png  used on input line 215.
+(pdftex.def)             Requested size: 317.07614pt x 256.02008pt.
+<./img/plots/Trail4_VonV.png, id=39, 614.295pt x 341.8371pt>
+File: ./img/plots/Trail4_VonV.png Graphic file (type png)
+<use ./img/plots/Trail4_VonV.png>
+Package pdftex.def Info: ./img/plots/Trail4_VonV.png  used on input line 223.
+(pdftex.def)             Requested size: 317.07614pt x 176.44186pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./img/plots/Trail3_VonV.png> <./img/plots/Trail3_O.png>]
+<./img/plots/Trail4_O.png, id=46, 409.7709pt x 327.3831pt>
+File: ./img/plots/Trail4_O.png Graphic file (type png)
+<use ./img/plots/Trail4_O.png>
+Package pdftex.def Info: ./img/plots/Trail4_O.png  used on input line 230.
+(pdftex.def)             Requested size: 317.07614pt x 253.33463pt.
+<./img/plots/Trail5_VonV.png, id=47, 803.0pt x 451.6875pt>
+File: ./img/plots/Trail5_VonV.png Graphic file (type png)
+<use ./img/plots/Trail5_VonV.png>
+Package pdftex.def Info: ./img/plots/Trail5_VonV.png  used on input line 238.
+(pdftex.def)             Requested size: 317.07614pt x 178.35602pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./img/plots/Trail4_VonV.png> <./img/plots/Trail4_O.png>]
+<./img/plots/Trail5_O.png, id=53, 412.6617pt x 330.2739pt>
+File: ./img/plots/Trail5_O.png Graphic file (type png)
+<use ./img/plots/Trail5_O.png>
+Package pdftex.def Info: ./img/plots/Trail5_O.png  used on input line 245.
+(pdftex.def)             Requested size: 317.07614pt x 253.77243pt.
+ [9 <./img/plots/Trail5_VonV.png> <./img/plots/Trail5_O.png>]
+<./img/plots/3d_double_scroll.png, id=59, 684.5575pt x 451.6875pt>
+File: ./img/plots/3d_double_scroll.png Graphic file (type png)
+<use ./img/plots/3d_double_scroll.png>
+Package pdftex.def Info: ./img/plots/3d_double_scroll.png  used on input line 299.
+(pdftex.def)             Requested size: 317.07614pt x 209.21922pt.
+ [10]
+<./img/plots/Chua_Circuit_Variables_vs_Time.png, id=68, 684.5575pt x 451.6875pt>
+File: ./img/plots/Chua_Circuit_Variables_vs_Time.png Graphic file (type png)
+<use ./img/plots/Chua_Circuit_Variables_vs_Time.png>
+Package pdftex.def Info: ./img/plots/Chua_Circuit_Variables_vs_Time.png  used on input line 306.
+(pdftex.def)             Requested size: 317.07614pt x 209.21922pt.
+ [11 <./img/plots/3d_double_scroll.png> <./img/plots/Chua_Circuit_Variables_vs_Time.png>] [12]
+Underfull \hbox (badness 3312) in paragraph at lines 358--367
+\OT1/cmr/m/n/12 Pages 332-339, ISSN 0960-0779, https://doi.org/10.1016/j.chaos.2015.05.028.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[2] [3]
-Underfull \hbox (badness 4316) in paragraph at lines 137--138
-[]\OT1/cmr/m/n/12 The Sci-ence and Maths Zone. (2021, March 14). The Pho-to-elec-
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 137--138
-\OT1/cmr/m/n/12 tric Ef-fect, Pho-tons and Planck's Equa-tion. The Sci-ence and Maths
- []
-
-[4] (./Lab2.aux) ) 
+[13] (./Lab3.aux) ) 
 Here is how much of TeX's memory you used:
- 3940 strings out of 476025
- 59945 string characters out of 5790018
- 1858388 words of memory out of 5000000
- 24395 multiletter control sequences out of 15000+600000
- 516076 words of font info for 45 fonts, out of 8000000 for 9000
+ 4060 strings out of 476025
+ 63199 string characters out of 5790018
+ 1861388 words of memory out of 5000000
+ 24492 multiletter control sequences out of 15000+600000
+ 519188 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,456b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Lab2.pdf (4 pages, 82291 bytes).
+ 57i,9n,62p,639b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lab3.pdf (13 pages, 1151703 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
