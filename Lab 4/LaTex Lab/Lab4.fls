@@ -232,12 +232,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./img/other/circuit_img.png
+INPUT ./img/other/circuit_img.png
+INPUT ./img/other/circuit_img.png
+INPUT ./img/other/circuit_img.png
 OUTPUT Lab4.pdf
-INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./img/other/circuit_img.png
-INPUT ./img/other/circuit_img.png
-INPUT ./img/other/circuit_img.png
-INPUT ./img/other/circuit_img.png
 INPUT ./img/other/circuit_img.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
@@ -255,6 +254,7 @@ INPUT ./img/plots/Trail1_VonV.png
 INPUT ./img/plots/Trail1_VonV.png
 INPUT ./img/plots/Trail1_VonV.png
 INPUT ./img/plots/Trail1_VonV.png
+INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./img/plots/Trail1_O.png
 INPUT ./img/plots/Trail1_O.png
 INPUT ./img/plots/Trail1_O.png
@@ -316,7 +316,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb

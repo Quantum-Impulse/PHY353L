@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  26 MAR 2024 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  26 MAR 2024 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -220,109 +220,111 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count289
-[1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<./img/other/circuit_img.png, id=14, 2031.59pt x 1324.95pt>
+<./img/other/circuit_img.png, id=1, 2031.59pt x 1324.95pt>
 File: ./img/other/circuit_img.png Graphic file (type png)
 <use ./img/other/circuit_img.png>
-Package pdftex.def Info: ./img/other/circuit_img.png  used on input line 107.
+Package pdftex.def Info: ./img/other/circuit_img.png  used on input line 42.
 (pdftex.def)             Requested size: 317.07614pt x 206.78032pt.
-<./img/plots/Trail1_VonV.png, id=16, 614.295pt x 341.8371pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./img/plots/Trail1_VonV.png, id=3, 614.295pt x 341.8371pt>
 File: ./img/plots/Trail1_VonV.png Graphic file (type png)
 <use ./img/plots/Trail1_VonV.png>
-Package pdftex.def Info: ./img/plots/Trail1_VonV.png  used on input line 155.
+Package pdftex.def Info: ./img/plots/Trail1_VonV.png  used on input line 90.
 (pdftex.def)             Requested size: 317.07614pt x 176.44186pt.
- [3 <./img/other/circuit_img.png>]
-<./img/plots/Trail1_O.png, id=21, 412.6617pt x 330.2739pt>
+[1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<./img/plots/Trail1_O.png, id=13, 412.6617pt x 330.2739pt>
 File: ./img/plots/Trail1_O.png Graphic file (type png)
 <use ./img/plots/Trail1_O.png>
-Package pdftex.def Info: ./img/plots/Trail1_O.png  used on input line 162.
+Package pdftex.def Info: ./img/plots/Trail1_O.png  used on input line 97.
 (pdftex.def)             Requested size: 317.07614pt x 253.77243pt.
-<./img/plots/Trial2_VonV.png, id=22, 610.6815pt x 341.8371pt>
+<./img/plots/Trial2_VonV.png, id=14, 610.6815pt x 341.8371pt>
 File: ./img/plots/Trial2_VonV.png Graphic file (type png)
 <use ./img/plots/Trial2_VonV.png>
-Package pdftex.def Info: ./img/plots/Trial2_VonV.png  used on input line 170.
+Package pdftex.def Info: ./img/plots/Trial2_VonV.png  used on input line 105.
 (pdftex.def)             Requested size: 317.07614pt x 177.49028pt.
-<./img/plots/Trail2_O.png, id=23, 409.0482pt x 330.2739pt>
+<./img/plots/Trail2_O.png, id=15, 409.0482pt x 330.2739pt>
 File: ./img/plots/Trail2_O.png Graphic file (type png)
 <use ./img/plots/Trail2_O.png>
-Package pdftex.def Info: ./img/plots/Trail2_O.png  used on input line 177.
+Package pdftex.def Info: ./img/plots/Trail2_O.png  used on input line 112.
 (pdftex.def)             Requested size: 317.07614pt x 256.02008pt.
-<./img/plots/Trail3_VonV.png, id=24, 610.6815pt x 341.8371pt>
+<./img/plots/Trail3_VonV.png, id=16, 610.6815pt x 341.8371pt>
 File: ./img/plots/Trail3_VonV.png Graphic file (type png)
 <use ./img/plots/Trail3_VonV.png>
-Package pdftex.def Info: ./img/plots/Trail3_VonV.png  used on input line 185.
+Package pdftex.def Info: ./img/plots/Trail3_VonV.png  used on input line 120.
 (pdftex.def)             Requested size: 317.07614pt x 177.49028pt.
-<./img/plots/Trail3_O.png, id=25, 409.0482pt x 330.2739pt>
+<./img/plots/Trail3_O.png, id=17, 409.0482pt x 330.2739pt>
 File: ./img/plots/Trail3_O.png Graphic file (type png)
 <use ./img/plots/Trail3_O.png>
-Package pdftex.def Info: ./img/plots/Trail3_O.png  used on input line 192.
+Package pdftex.def Info: ./img/plots/Trail3_O.png  used on input line 127.
 (pdftex.def)             Requested size: 317.07614pt x 256.02008pt.
-<./img/plots/Trail4_VonV.png, id=26, 614.295pt x 341.8371pt>
+<./img/plots/Trail4_VonV.png, id=18, 614.295pt x 341.8371pt>
 File: ./img/plots/Trail4_VonV.png Graphic file (type png)
 <use ./img/plots/Trail4_VonV.png>
-Package pdftex.def Info: ./img/plots/Trail4_VonV.png  used on input line 200.
+Package pdftex.def Info: ./img/plots/Trail4_VonV.png  used on input line 135.
 (pdftex.def)             Requested size: 317.07614pt x 176.44186pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/plots/Trail4_O.png, id=27, 409.7709pt x 327.3831pt>
+<./img/plots/Trail4_O.png, id=19, 409.7709pt x 327.3831pt>
 File: ./img/plots/Trail4_O.png Graphic file (type png)
 <use ./img/plots/Trail4_O.png>
-Package pdftex.def Info: ./img/plots/Trail4_O.png  used on input line 207.
+Package pdftex.def Info: ./img/plots/Trail4_O.png  used on input line 142.
 (pdftex.def)             Requested size: 317.07614pt x 253.33463pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/plots/Trail5_VonV.png, id=28, 803.0pt x 451.6875pt>
+<./img/plots/Trail5_VonV.png, id=20, 803.0pt x 451.6875pt>
 File: ./img/plots/Trail5_VonV.png Graphic file (type png)
 <use ./img/plots/Trail5_VonV.png>
-Package pdftex.def Info: ./img/plots/Trail5_VonV.png  used on input line 215.
+Package pdftex.def Info: ./img/plots/Trail5_VonV.png  used on input line 150.
 (pdftex.def)             Requested size: 317.07614pt x 178.35602pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/plots/Trail5_O.png, id=29, 412.6617pt x 330.2739pt>
+<./img/plots/Trail5_O.png, id=21, 412.6617pt x 330.2739pt>
 File: ./img/plots/Trail5_O.png Graphic file (type png)
 <use ./img/plots/Trail5_O.png>
-Package pdftex.def Info: ./img/plots/Trail5_O.png  used on input line 222.
+Package pdftex.def Info: ./img/plots/Trail5_O.png  used on input line 157.
 (pdftex.def)             Requested size: 317.07614pt x 253.77243pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./img/plots/Trail1_VonV.png>] [5 <./img/plots/Trail1_O.png> <./img/plots/Trial2_VonV.png>] [6 <./img/plots/Trail2_O.png> <./img/plots/Trail3_VonV.png>] [7 <./img/plots/Trail3_O.png> <./img/plots/Trail4_VonV.png>] [8 <./img/plots/Trail4_O.png> <./img/plots/Trail5_VonV.png>]
-<./img/plots/3d_double_scroll.png, id=59, 684.5575pt x 451.6875pt>
+[2 <./img/other/circuit_img.png> <./img/plots/Trail1_VonV.png>] [3 <./img/plots/Trail1_O.png>] [4 <./img/plots/Trial2_VonV.png> <./img/plots/Trail2_O.png>] [5 <./img/plots/Trail3_VonV.png> <./img/plots/Trail3_O.png>] [6 <./img/plots/Trail4_VonV.png> <./img/plots/Trail4_O.png>] [7 <./img/plots/Trail5_VonV.png> <./img/plots/Trail5_O.png>]
+<./img/plots/3d_double_scroll.png, id=56, 684.5575pt x 451.6875pt>
 File: ./img/plots/3d_double_scroll.png Graphic file (type png)
 <use ./img/plots/3d_double_scroll.png>
-Package pdftex.def Info: ./img/plots/3d_double_scroll.png  used on input line 276.
+Package pdftex.def Info: ./img/plots/3d_double_scroll.png  used on input line 211.
 (pdftex.def)             Requested size: 317.07614pt x 209.21922pt.
- [9 <./img/plots/Trail5_O.png>]
-<./img/plots/Chua_Circuit_Variables_vs_Time.png, id=65, 684.5575pt x 451.6875pt>
+ [8 <./img/plots/3d_double_scroll.png>]
+<./img/plots/Chua_Circuit_Variables_vs_Time.png, id=62, 684.5575pt x 451.6875pt>
 File: ./img/plots/Chua_Circuit_Variables_vs_Time.png Graphic file (type png)
 <use ./img/plots/Chua_Circuit_Variables_vs_Time.png>
-Package pdftex.def Info: ./img/plots/Chua_Circuit_Variables_vs_Time.png  used on input line 283.
+Package pdftex.def Info: ./img/plots/Chua_Circuit_Variables_vs_Time.png  used on input line 218.
 (pdftex.def)             Requested size: 317.07614pt x 209.21922pt.
- [10 <./img/plots/3d_double_scroll.png> <./img/plots/Chua_Circuit_Variables_vs_Time.png>] [11]
-Underfull \hbox (badness 3312) in paragraph at lines 335--344
+ [9 <./img/plots/Chua_Circuit_Variables_vs_Time.png>]
+Underfull \hbox (badness 3312) in paragraph at lines 270--279
 \OT1/cmr/m/n/12 Pages 332-339, ISSN 0960-0779, https://doi.org/10.1016/j.chaos.2015.05.028.
  []
 
-[12] (./Lab4.aux) ) 
+[10] (./Lab4.aux) ) 
 Here is how much of TeX's memory you used:
  4060 strings out of 476025
  63199 string characters out of 5790018
- 1864388 words of memory out of 5000000
+ 1863388 words of memory out of 5000000
  24492 multiletter control sequences out of 15000+600000
  519188 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,62p,639b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lab4.pdf (12 pages, 1145166 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lab4.pdf (10 pages, 1126370 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
