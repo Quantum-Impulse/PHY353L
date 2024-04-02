@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  1 APR 2024 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  1 APR 2024 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -220,27 +220,22 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count289
-
-Underfull \hbox (badness 3312) in paragraph at lines 45--54
-\OT1/cmr/m/n/12 Pages 332-339, ISSN 0960-0779, https://doi.org/10.1016/j.chaos.2015.05.028.
- []
-
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Lab4.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Lab4.aux) ) 
 Here is how much of TeX's memory you used:
- 3939 strings out of 476025
- 59921 string characters out of 5790018
+ 3957 strings out of 476025
+ 60109 string characters out of 5790018
  1855388 words of memory out of 5000000
- 24394 multiletter control sequences out of 15000+600000
- 515769 words of font info for 44 fonts, out of 8000000 for 9000
+ 24405 multiletter control sequences out of 15000+600000
+ 518881 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,393b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Lab4.pdf (1 page, 58249 bytes).
+ 57i,6n,62p,408b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Lab4.pdf (2 pages, 64582 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
