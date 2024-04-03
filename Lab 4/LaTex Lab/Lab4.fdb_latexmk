@@ -1,6 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1712090717 "/Users/apple/Documents/School/Year 3 2nd/PHY 353L/Labs/Lab 4/LaTex Lab/Lab4.tex" "Lab4.pdf" "Lab4" 1712090717 0
-  "/Users/apple/Documents/School/Year 3 2nd/PHY 353L/Labs/Lab 4/LaTex Lab/Lab4.tex" 1712090716 3140 320a6661104a5f7e442ca12f7c19ac3e ""
+["pdflatex"] 1712131817 "/Users/apple/Documents/School/Year 3 2nd/PHY 353L/Labs/Lab 4/LaTex Lab/Lab4.tex" "Lab4.pdf" "Lab4" 1712131818 0
+  "../imgs/apparatus.png" 1712098854 124697 6e0ab26efa643c1952741f618122ecb8 ""
+  "../imgs/lightbox.png" 1712098810 736657 4d6ea260e54ff2e086ee6dcc39cc4c38 ""
+  "/Users/apple/Documents/School/Year 3 2nd/PHY 353L/Labs/Lab 4/LaTex Lab/Lab4.tex" 1712131817 8119 d242836975c4b12efcab264597688d8b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -23,6 +25,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -56,8 +59,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1709767214 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1709767206 7883452 b24d67c5f3a1a04f69847f7cbe169043 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Lab4.aux" 1712090717 967 57b31a3ce85a24cac4af32c16e8f4ae9 "pdflatex"
-  "Lab4.tex" 1712090716 3140 320a6661104a5f7e442ca12f7c19ac3e ""
+  "Lab4.aux" 1712131818 2397 1a30e31935b03dfd7c29d39eacad1ba8 "pdflatex"
+  "Lab4.tex" 1712131817 8119 d242836975c4b12efcab264597688d8b ""
   (generated)
   "Lab4.aux"
   "Lab4.log"
