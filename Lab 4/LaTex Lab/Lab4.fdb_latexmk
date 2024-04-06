@@ -1,5 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1712362083.99307 "c:/Users/erive/Documents/School/Year 3 S2/PHY353L/Lab 4/LaTex Lab/Lab4.tex" "Lab4.pdf" "Lab4" 1712362084.65139 0
+["pdflatex"] 1712365696.15499 "c:/Users/erive/Documents/School/Year 3 S2/PHY353L/Lab 4/LaTex Lab/Lab4.tex" "Lab4.pdf" "Lab4" 1712365697.02442 2
+  "../imgs/ND580.png" 1712356587 222949 98c2617b0d633b58bb5e31c0b21167c0 ""
+  "../imgs/Wavelenth_Filters.png" 1712356587 158045 811d263e8a5b455976ed6fba67a775df ""
+  "../imgs/Work_Function.png" 0 -1 0 ""
   "../imgs/apparatus.png" 1712356587 124697 f831becc63f748df9c998062203d3730 ""
   "../imgs/lightbox.png" 1712356587 736657 cb82c2cef7df19313e4ab50daa8ce0f0 ""
   "C:/Users/erive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1712362082 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
@@ -21,6 +24,7 @@
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -32,6 +36,7 @@
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -56,9 +61,9 @@
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg" 1679057124 1829 d8258b7d94f5f955e70c623e525f9f45 ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty" 1679057124 80947 75a96bb4c9f40ae31d54a01d924df2ff ""
   "C:/Users/erive/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1679057124 77021 d05e9115c67855816136d82929db8892 ""
-  "Lab4.aux" 1712362084 2410 c5557bd89238824414b7260e1394ab7a "pdflatex"
-  "Lab4.tex" 1712361959 8784 aa2c20882bdcf327e75556307445372e ""
-  "c:/Users/erive/Documents/School/Year 3 S2/PHY353L/Lab 4/LaTex Lab/Lab4.tex" 1712361959 8784 aa2c20882bdcf327e75556307445372e ""
+  "Lab4.aux" 1712365696 4354 e6ef038ee333f1cc126a880e5570778f "pdflatex"
+  "Lab4.tex" 1712365695 12281 20c60eb61474cc3f31b31143f0c8b2c9 ""
+  "c:/Users/erive/Documents/School/Year 3 S2/PHY353L/Lab 4/LaTex Lab/Lab4.tex" 1712365695 12281 20c60eb61474cc3f31b31143f0c8b2c9 ""
   (generated)
   "Lab4.aux"
   "Lab4.log"

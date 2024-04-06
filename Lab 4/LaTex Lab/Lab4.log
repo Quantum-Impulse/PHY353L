@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.5)  5 APR 2024 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.5)  5 APR 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,13 +223,21 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \c@lstlisting=\count291
 [1
 
-{C:/Users/erive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+{C:/Users/erive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: Reference `fig: Lightbox Diagram' on page 2 undefined on input line 94.
+
+[2]
 <../imgs/lightbox.png, id=19, 942.52126pt x 660.4675pt>
 File: ../imgs/lightbox.png Graphic file (type png)
 <use ../imgs/lightbox.png>
 Package pdftex.def Info: ../imgs/lightbox.png  used on input line 98.
 (pdftex.def)             Requested size: 317.07614pt x 222.18767pt.
- [3 <../imgs/lightbox.png>]
+
+
+LaTeX Warning: Reference `fig: Apparatus Diagram' on page 3 undefined on input line 107.
+
+[3 <../imgs/lightbox.png>]
 <../imgs/apparatus.png, id=25, 896.34875pt x 335.2525pt>
 File: ../imgs/apparatus.png Graphic file (type png)
 <use ../imgs/apparatus.png>
@@ -237,9 +245,45 @@ Package pdftex.def Info: ../imgs/apparatus.png  used on input line 113.
 (pdftex.def)             Requested size: 317.07614pt x 118.58832pt.
 
 
-LaTeX Warning: Reference `fig: Wavelength Data' on page 4 undefined on input line 124.
+LaTeX Warning: Reference `fig: Wavelength Data' on page 4 undefined on input line 123.
 
-[4 <../imgs/apparatus.png>] (Lab4.aux)
+<../imgs/Wavelenth_Filters.png, id=26, 963.6pt x 483.8075pt>
+File: ../imgs/Wavelenth_Filters.png Graphic file (type png)
+<use ../imgs/Wavelenth_Filters.png>
+Package pdftex.def Info: ../imgs/Wavelenth_Filters.png  used on input line 127.
+(pdftex.def)             Requested size: 407.66833pt x 204.68161pt.
+
+LaTeX Warning: Reference `fig: ND Data' on page 4 undefined on input line 137.
+
+[4 <../imgs/apparatus.png> <../imgs/Wavelenth_Filters.png>]
+<../imgs/ND580.png, id=32, 962.59625pt x 480.79625pt>
+File: ../imgs/ND580.png Graphic file (type png)
+<use ../imgs/ND580.png>
+Package pdftex.def Info: ../imgs/ND580.png  used on input line 141.
+(pdftex.def)             Requested size: 407.66833pt x 203.62039pt.
+
+
+LaTeX Warning: Reference `fig: Work Function Data' on page 5 undefined on input line 152.
+
+
+LaTeX Warning: File `../imgs/Work_Function.png' not found on input line 156.
+
+
+c:/Users/erive/Documents/School/Year 3 S2/PHY353L/Lab 4/LaTex Lab/Lab4.tex:156: Package pdftex.def Error: File `../imgs/Work_Function.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...0.9\textwidth]{../imgs/Work_Function.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <../imgs/ND580.png>] [6] (Lab4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -248,19 +292,22 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3959 strings out of 474486
- 60343 string characters out of 5743756
+ 4008 strings out of 474486
+ 61884 string characters out of 5743756
  1933542 words of memory out of 5000000
- 26240 multiletter control sequences out of 15000+600000
- 565810 words of font info for 63 fonts, out of 8000000 for 9000
+ 26288 multiletter control sequences out of 15000+600000
+ 565979 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,558b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lab4.pdf (4 pages, 432597 bytes).
+ 57i,6n,65p,569b,291s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/erive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Lab4.pdf (6 pages, 641848 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
