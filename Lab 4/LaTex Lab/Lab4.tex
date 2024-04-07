@@ -133,8 +133,8 @@ function threshold.
 
         \subsection{Neutral Density Filters}
         The neutral density filters were used to control the intensity of the incoming light to the phototube. From the data collected
-        we can see that the intensity of the light does not affect the stopping potential. This is consistent with theories in quantum
-        mechanics for conservation of energy. The data collected is shown in Figure \ref{fig: ND Data}.
+        we can see that the intensity of the light does not affect the stopping potential. This in turn doesn't effect the maximun kinetic
+        which is consistent with theories in quantum mechanics for conservation of energy. The data collected is shown in Figure \ref{fig: ND Data}.
 
         \begin{figure}[!h]
                 \centering
@@ -146,24 +146,71 @@ function threshold.
                 \label{fig: ND Data}
         \end{figure}
 
+        \newpage
+
         \subsection{Work Function, Stopping Potential Trends, and KEmax Trends}
-        The work function and stopping potential were calculated from the data collected from the experiment. The work function
-        was calculated to be \( \phi = 1.97 \times 10^{-22} J \) and the stopping potential was calculated to be \( V_0 = 0.6 V \).
-        The data collected is shown in Figure \ref{fig: Work Function Data}.
+        The work function of the metal was calculated by using the data collected from the experiment. This was done by using plank's constant
+        and the stopping potential. The stopping potential was determine from manual inspection of the graphs. Then using the equation
+        \( h\nu = KEmax + \Phi \) we can calculate the work function. The data collected is shown in Figure \ref{fig: Work Function Data}.
 
         \begin{figure}[!h]
                 \centering
-                \includegraphics[width=0.9\textwidth]{../imgs/Work_Function.png}
-                \caption{Work Function Data. In the figure, the data collected from the experiment is shown. The data shows the 
-                stopping potential as a function of the current coming from the phototube. The data shows that the intensity of the light
-                does not affect the stopping potential. since the stopping potential is the same even though the current
-                are increasing at different rates.}
+                \includegraphics[width=0.9\textwidth]{../imgs/workF vs wavelength.png}
+                \caption{Work Function Data. In the figure, the data collected from the experiment is shown. The data shows the work
+                fucntion vs the different wavelengths of the incoming light. The data shows an overall negative trend as the wavelength
+                increases the work function decreases. Which is not consistent with the theory of the photoelectric effect. However if we
+                remove the 249nm data point we can see that the data is consistent with the theory.}
                 \label{fig: Work Function Data}
+        \end{figure}
+
+        \begin{figure}[!h]
+                \centering
+                \includegraphics[width=0.9\textwidth]{../imgs/workF vs ND filter.png}
+                \caption{Work Function Data. In the figure, the data collected from the experiment is shown. The data shows the
+                work fucntion of the ND filter data ploted against the intensity of the ND filter. From this and accounting our
+                experimental error, we can say that our graph shows close to a horizontal line. This means that the work function
+                is not affected by the intensity of the light.}
+                \label{fig: ND Work Function Data}
+        \end{figure}
+
+        \begin{figure}[!h]
+                \centering
+                \includegraphics[width=0.9\textwidth]{../imgs/stoppingVSwavelength.png}
+                \caption{Stopping Potential Data. In the figure, the data collected from the experiment is shown. The data shows 
+                the stopping potential as a function of the wavelength of the incoming light. The data shows an overall trend of
+                increasing stopping potential as the wavelength increases.}
+                \label{fig: Stopping Potential vs Wavelength Data}
+        \end{figure}
+
+        \begin{figure}[!h]
+                \centering
+                \includegraphics[width=0.9\textwidth]{../imgs/KE VS wavelength.png}
+                \caption{Kinetic Energy Data. In the figure, the data collected from the experiment is shown. The data shows the 
+                kinetic energy of the photoelectrons as a function of the wavelength of the incoming light. The data shows an overall trend of
+                decreasing kinetic energy as the wavelength increases. This makes since since the smaller the wavelength the more energy it carries.}
         \end{figure}
 
         \subsection{Planck's Constant and Work Function calculation}
 
-\section{Discussion}
+        For the value of the Planks constant we used the analtical approach of using the slope of the graph of the stopping potential vs the inverse of the wavelength.
+        The slope of the graph was determined to be \(  -1.60 \times 10^{-3} \) by using a fitting function. Then the slope was multiplied by the charge of an electron and divided by the speed of light to get the value of Planck's constant.
+        The value of Planck's constant was determined to be \( h = 8.55 \times 10^{-31} J \cdot s \). 
+        
+        The work function was determined by using the y-intercept of the graph of the stopping potential vs the inverse of the wavelength. The y-intercept of the graph was determined to be \( 1.22 \times 10^{-3} J \).
+        The calculate the work function we used the equation \( \phi = (y-intercept) \times e \) where e is the charge of an electron. The work function was determined to be \( \phi = 1.959 \times 10^{-22} J \).
+        The data collected is shown in Figure \ref{fig: Stopping Potential vs 1/Wavelength Data}.
+
+        \begin{figure}[!h]
+                \centering
+                \includegraphics[width=0.9\textwidth]{../imgs/stopping vs 1overWavelength.png}
+                \caption{Stopping Potential vs 1/Wavelength Data. In the figure, the data collected from the experiment is shown. The data shows 
+                the stopping potential as a function of the inverse of the wavelength of the incoming light. The graphs slope and y-intercept were used to calculate
+                the work function and Planck's constant.}
+                \label{fig: Stopping Potential vs 1/Wavelength Data}
+        \end{figure}
+
+
+\section{Discussion and Conclusion}
         The results of the experiment were consistent with the theoretical predictions, and the values of Planck's constant and the 
         work function were determined to be \( h = 8.55 \times 10^{-31} J \cdot s \) and \( \phi = 1.97 \times 10^{-22} J \), respectively. 
         Which come close to the accepted values of \( h = 6.63 \times 10^{-34} J \cdot s \) and \( \phi = 3.10 \times 10^{-19} J \), with most of the error coming from the experimental setup and the
@@ -171,18 +218,13 @@ function threshold.
         does not affect the kinetic energy of the photoelectrons and work function of the metal, but the frequency of the light does. Which is 
         consistent with the theory of the photoelectric effect and respects quantum mechanics.
 
-
-        
-
-
-\section{Conclusion}
-
-
 \section{References}
     \begin{enumerate}
         \sloppy
-        \item  T. Matsumoto. A chaotic attractor from Chua’s circuit. IEEE Trans. Circuits Sys., 31(12):1055–1058, 1984.
-        \item  http://www.chuacircuits.com For more information on setup, examples, and matlab example code.
+        \item  Knudsen, A. W., The photoelectric determination of h/e: A new approach to an old problem.
+        \item  RCA 935 Vacuum Phototube. Note: the cathode of this phototube is made of the semiconductor CsSb3
+        \item Parks, Dr. J. E. (2000). Photoelectric effect - physics @ UTK. Photoelectric Effect . http://www.phys.utk.edu/labs/modphys/PhotoelectricEffect.pdf 
+        \item Wikimedia Foundation. (2023, May 12). Phototube. Wikipedia. https://w.wiki/9hKn
 
     \end{enumerate}
 
