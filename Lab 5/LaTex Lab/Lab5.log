@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  27 APR 2024 02:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  27 APR 2024 04:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -220,22 +220,88 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count289
+<../Imgs/leon.jpeg, id=1, 282.30469pt x 376.40625pt>
+File: ../Imgs/leon.jpeg Graphic file (type jpg)
+<use ../Imgs/leon.jpeg>
+Package pdftex.def Info: ../Imgs/leon.jpeg  used on input line 48.
+(pdftex.def)             Requested size: 113.24197pt x 150.99059pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Lab5.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../Imgs/base_ap.png, id=12, 976.64874pt x 784.9325pt>
+File: ../Imgs/base_ap.png Graphic file (type png)
+<use ../Imgs/base_ap.png>
+Package pdftex.def Info: ../Imgs/base_ap.png  used on input line 87.
+(pdftex.def)             Requested size: 362.37569pt x 291.24689pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <../Imgs/leon.jpeg>]
+<../Imgs/len_corr.png, id=18, 1263.72125pt x 800.9925pt>
+File: ../Imgs/len_corr.png Graphic file (type png)
+<use ../Imgs/len_corr.png>
+Package pdftex.def Info: ../Imgs/len_corr.png  used on input line 110.
+(pdftex.def)             Requested size: 362.37569pt x 229.69078pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <../Imgs/base_ap.png>] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../Imgs/len_corr.png>]
+<../Imgs/used_app.png, id=28, 1162.3425pt x 750.805pt>
+File: ../Imgs/used_app.png Graphic file (type png)
+<use ../Imgs/used_app.png>
+Package pdftex.def Info: ../Imgs/used_app.png  used on input line 139.
+(pdftex.def)             Requested size: 362.37569pt x 234.07608pt.
+ [5 <../Imgs/used_app.png>] [6]
+<../Imgs/plot1.png, id=38, 824.07875pt x 451.6875pt>
+File: ../Imgs/plot1.png Graphic file (type png)
+<use ../Imgs/plot1.png>
+Package pdftex.def Info: ../Imgs/plot1.png  used on input line 190.
+(pdftex.def)             Requested size: 362.37569pt x 198.61905pt.
+<../Imgs/plot2.png, id=39, 910.40125pt x 451.6875pt>
+File: ../Imgs/plot2.png Graphic file (type png)
+<use ../Imgs/plot2.png>
+Package pdftex.def Info: ../Imgs/plot2.png  used on input line 207.
+(pdftex.def)             Requested size: 362.37569pt x 179.7896pt.
+ [7 <../Imgs/plot1.png> <../Imgs/plot2.png>]
+<../Imgs/plot3.png, id=46, 910.40125pt x 451.6875pt>
+File: ../Imgs/plot3.png Graphic file (type png)
+<use ../Imgs/plot3.png>
+Package pdftex.def Info: ../Imgs/plot3.png  used on input line 223.
+(pdftex.def)             Requested size: 362.37569pt x 179.7896pt.
+<../Imgs/plot4.png, id=47, 910.40125pt x 451.6875pt>
+File: ../Imgs/plot4.png Graphic file (type png)
+<use ../Imgs/plot4.png>
+Package pdftex.def Info: ../Imgs/plot4.png  used on input line 236.
+(pdftex.def)             Requested size: 362.37569pt x 179.7896pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <../Imgs/plot3.png>]
+<../Imgs/plot5.png, id=52, 910.40125pt x 451.6875pt>
+File: ../Imgs/plot5.png Graphic file (type png)
+<use ../Imgs/plot5.png>
+Package pdftex.def Info: ../Imgs/plot5.png  used on input line 255.
+(pdftex.def)             Requested size: 362.37569pt x 179.7896pt.
+ [9 <../Imgs/plot4.png> <../Imgs/plot5.png>] [10] (./Lab5.aux) ) 
 Here is how much of TeX's memory you used:
- 3940 strings out of 476025
- 59929 string characters out of 5790018
- 1855388 words of memory out of 5000000
- 24395 multiletter control sequences out of 15000+600000
- 515769 words of font info for 44 fonts, out of 8000000 for 9000
+ 4037 strings out of 476025
+ 61802 string characters out of 5790018
+ 1858388 words of memory out of 5000000
+ 24471 multiletter control sequences out of 15000+600000
+ 519218 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,62p,389b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Lab5.pdf (2 pages, 57467 bytes).
+ 57i,6n,62p,667b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Lab5.pdf (10 pages, 2043014 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
